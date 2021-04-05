@@ -10,6 +10,7 @@ function App() {
       <div>
         <TopNav />
         <Route exact path="/" component={home} />
+        <Footer />
       </div>
     </Router>
   );

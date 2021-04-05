@@ -13,12 +13,29 @@ class home extends Component {
           </div>
 
           <div className="container">
-            <img alt="img" src={testImg} className="thumb-left" />
+            <div className="thumb-left">
+              <img alt="img" src={testImg} className="thumb" />
+              <div>Lorem Title 1</div>
+            </div>
+            <div className="thumb-right">
+              <img alt="img" src={testImg} className="thumb" />
+              <div>Lorem Title 2</div>
+            </div>
 
+            
           </div>
 
           <div className="container">
-            <img alt="img" src={testImg} className="thumb-right" />
+            <div className="thumb-left">
+              <img alt="img" src={testImg} className="thumb" />
+              <div>Lorem Title 3</div>
+            </div>
+            <div className="thumb-right">
+              <img alt="img" src={testImg} className="thumb" />
+              <div>Lorem Title 4</div>
+            </div>
+
+            
           </div>
         </div>
       </div>
