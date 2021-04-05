@@ -1,0 +1,22 @@
+.index-wrap {
+    width: 90vw;
+    margin: auto;
+}
+
+.container{
+    width:100%;
+}
+
+.thumb-left {
+height: auto;
+width: 47.5%;
+float:left;
+margin-bottom: 60px;
+}
+
+.thumb-right {
+    float:right;
+    width: 47.5%;
+    height:auto;
+    margin-bottom: 60px;
+}
