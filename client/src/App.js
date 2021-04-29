@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
-import home from "./pages/home";
+import Home from "./pages/home";
 import Footer from "./components/footer";
 import TopNav from "./components/topNav";
 
@@ -13,7 +13,9 @@ function App() {
 
       <div>
         <TopNav />
-        <Route exact path="/" component={home} />
+
+        <Route exact path="/" component={Home} />
+
         <Footer />
       </div>
 

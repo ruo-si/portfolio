@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./home.css";
 import testImg from "../assets/test.png";
 
-class home extends Component {
+class Home extends Component {
   render() {
     return (
       <div>
@@ -16,25 +16,24 @@ class home extends Component {
       
             <div className="thumb-left">
               <img alt="img" src={testImg} className="thumb" />
-              <div>Lorem Title 1</div>
+              <div>Project Title 1</div>
             </div>
             
             <div className="thumb-right">
               <img alt="img" src={testImg} className="thumb" />
-              <div>Lorem Title 2</div>
+              <div>Project Title 2</div>
             </div>
 
-            
           </div>
 
           <div className="container">
             <div className="thumb-left">
               <img alt="img" src={testImg} className="thumb" />
-              <div>Lorem Title 3</div>
+              <div>Project Title 3</div>
             </div>
             <div className="thumb-right">
               <img alt="img" src={testImg} className="thumb" />
-              <div>Lorem Title 4</div>
+              <div>Project Title 4</div>
             </div>
 
             
@@ -45,4 +44,4 @@ class home extends Component {
   }
 }
 
-export default home;
+export default Home;
