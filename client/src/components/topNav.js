@@ -1,21 +1,5 @@
 import React from "react";
-import { BrowserRouter as Link } from "react-router-dom";
-
-// class TopNav extends Component {
-//   render() {
-//     return <div>
-
-//         <div>Victoria Lee</div>
-
-//         <ul>
-//            <li>Selected Works</li>
-//            <li>About</li> 
-//            <li>Press</li>
-//         </ul>
-
-//         </div>
-//   }
-// }
+import { Link } from "react-router-dom";
 
 function TopNav() {
 
@@ -23,13 +7,13 @@ function TopNav() {
 
     <div>
 
-      <div>Victoria Lee</div>
+      <Link to="/"> Victoria Lee </Link>
 
-      <Link> Selected Works </Link>
+      <Link to="/"> Works </Link>
 
-      <Link> About </Link>
+      <Link to="/about"> About </Link>
 
-      <Link> Press </Link>
+      <Link to="/press"> Press </Link>
 
     </div>
 
