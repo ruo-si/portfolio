@@ -14,6 +14,8 @@ import Pd5 from "./pages/pd-5"
 import Pd6 from "./pages/pd-6"
 import Pd7 from "./pages/pd-7"
 
+import Vr1 from "./pages/vr-1"
+
 import Pd_Lutron from "./pages/pd-Lutron"
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
         <Route exact path="/pd-6" component={Pd6} />
         <Route exact path="/pd-7" component={Pd7} />
 
+        <Route exact path="/vr-1" component={Vr1} />
+       
 
         <Route exact path="/pd-lt" component={Pd_Lutron} />
         
