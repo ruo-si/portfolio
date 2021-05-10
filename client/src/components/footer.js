@@ -1,11 +1,13 @@
 import React from "react";
 import "./components.css"
+import mail from "../assets/mail.svg";
 
 const Footer = () => {
 
   return (
 
-    <div className="footer">footer</div>
+    <div className="footer">
+     <img alt="img" src={mail}/></div>
   )
 }
 
