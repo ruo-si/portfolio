@@ -1,5 +1,5 @@
 .index-wrap {
-  width: 80vw;
+  width: 95vw;
   margin: auto;
 }
 
@@ -17,6 +17,7 @@
 
 .title-wrap:hover .press-img{
     visibility: visible;
+    
 }
 
 .press-img{
