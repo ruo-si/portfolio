@@ -1,16 +1,13 @@
-.index-wrap {
-    width: 90vw;
-    margin: auto;
-}
 .index-manifesto {
     height: 80vh;
     font-size: 50px;
     padding-top: 25%;
-    width: 85%;
-
+    width: 80%;
+    font-family: "Roboto";
 }
 .container{
-    width:100%
+    width:100%;
+    margin-bottom: 60px
 }
 .accent-text{
     font-family: "Marcellus", serif;
@@ -19,16 +16,33 @@
 
 .thumb-left {
 height: auto;
-width: 47.5%;
-margin-bottom: 80px;
+width: 48.75%;
+margin-bottom: 60px;
 float: left
+}
+
+.filter-wrap{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+    margin-bottom: 70px;
+}
+
+
+.filter{
+margin-right: 15px;
+font-size: 14px;
+margin-top: 15px ;
+text-transform:uppercase;
+letter-spacing: 0.1em;
+line-height: 1.15em;
 }
 
 
 .thumb-right {
-    width: 47.5%;
+    width: 48.75%;
     height:auto;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     float: right;
 }
 
@@ -36,17 +50,13 @@ float: left
     width: 100%;
     
 }
-.filter{
-    text-align: center;
-    float: left;
+
+
+
+.project-title{
+    font-size: 14px;
+    margin-top: 15px ;
+    text-transform:uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.15em;
 }
-
-
-li {
-    list-style: none;
-    float: left;
-    text-align: center;
-    display: inline;
-    margin-left:15px;
-}
-
