@@ -18,6 +18,8 @@ import Vr1 from "./pages/vr-1"
 
 import Pd_Lutron from "./pages/pd-Lutron"
 
+import Vr_1d from "./pages/vr-1d"
+
 function App() {
 
   return (
@@ -42,6 +44,8 @@ function App() {
        
 
         <Route exact path="/pd-lt" component={Pd_Lutron} />
+
+        <Route exact path="/vr-1d" component={Vr_1d} />
         
         <Footer />
       </div>
