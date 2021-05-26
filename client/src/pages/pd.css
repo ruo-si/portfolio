@@ -1,0 +1,92 @@
+.container{
+    width: 80vw;
+    margin: auto;
+}
+
+.image-wrap-left{
+    width:50%;
+    display:inline;
+    float:left;
+     
+}
+
+.text-wrap-right{
+    width:30%;
+    float:left;
+    display:inline;
+    padding-left: 60px;
+    padding-top:25%;
+    height:auto;
+}
+
+.image-wrap-right{
+    width:50%;
+    display:inline;
+    float:right
+}
+
+.text-wrap-left{
+    width:30%;
+    float:left;
+    display:inline;
+    padding-left: 60px;
+    padding-top:25%;
+    height:auto;
+}
+
+
+.text-img-wrap{
+    overflow: auto;
+    width:100%;
+    /* background-color:red; */
+    margin-bottom: 120px;
+}
+
+.cross-title{
+    font-family: "Marcellus", serif;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom:45px;
+}
+
+.cross-wrap {
+    margin-bottom: 60px
+}
+
+.project-name{
+    font-family: "Marcellus", serif;
+    font-size: 25px;
+    display: inline;
+    float: left;
+    width: 20%;
+    letter-spacing:-1px;
+}
+
+.project-credit{
+    display: inline;
+    float: left;
+    width: 40%;
+    padding-right: 20px;
+}
+
+.project-detail{
+    display: inline;
+    float: left;
+}
+
+.project-detail-wrap{
+    margin-top:70px;
+    margin-bottom:90px;
+    overflow: auto;
+}
+
+.header-wrap{
+margin-bottom:160px;
+width:100%;
+height:auto
+}
+
+.caption{
+    font-size: 16px;
+    margin-top:15px;
+}
