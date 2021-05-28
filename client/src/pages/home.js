@@ -11,6 +11,8 @@ import H6 from "../assets/H_6.jpg";
 import H7 from "../assets/H_7.jpg";
 import H8 from "../assets/H_8.jpg";
 
+import ProjectCard from "../components/projectCard"
+
 const Home = () => {
 
   // const projectsArray = [
@@ -46,7 +48,7 @@ const Home = () => {
 
 
   // function to filter array
-  
+
   return (
 
     <div>
@@ -72,10 +74,11 @@ const Home = () => {
         </div>
 
 
-        <div className="container">
+        {/* <div className="container">
           <img alt="img" src={hero} className="thumb" />
           <div className="project-title">WeWork<br />Shenzhen</div>
         </div>
+
         <div className="container">
           <div className="thumb-left">
             <img alt="img" src={H1} className="thumb" />
@@ -87,6 +90,7 @@ const Home = () => {
             <div className="project-title">WeWork<br />Shenzhen</div>
           </div>
         </div>
+
         <div className="container">
           <div className="thumb-left">
             <img alt="img" src={H3} className="thumb" />
@@ -121,8 +125,9 @@ const Home = () => {
             <img alt="img" src={H8} className="thumb" />
             <div className="project-title">WeWork<br />Shenzhen</div>
           </div>
-        </div>
+        </div> */}
 
+        <ProjectCard/>
 
       </div>
     </div>
