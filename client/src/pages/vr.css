@@ -1,0 +1,8 @@
+.canvas{
+position: absolute !important;
+z-index: 100 !important;
+}
+
+.vr-header{
+    width: 100%;
+}
