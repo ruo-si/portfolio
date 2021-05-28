@@ -13,37 +13,40 @@ import H8 from "../assets/H_8.jpg";
 
 const Home = () => {
 
-  const projectsArray = [
-    {
-      PprojectId: 1,
-      name: "WeWork KDX",
-      projectImage: H6,
-      filterTag: "3d-vr"
-    },
+  // const projectsArray = [
+  //   {
+  //     PprojectId: 1,
+  //     name: "WeWork KDX",
+  //     projectImage: H6,
+  //     filterTag: "3d-vr"
+  //   },
 
-    {
-      PprojectId: 2,
-      name: "TCO",
-      projectImage: H5,
-      filterTag: "web"
-    },
+  //   {
+  //     PprojectId: 2,
+  //     name: "TCO",
+  //     projectImage: H5,
+  //     filterTag: "web"
+  //   },
 
-    {
-      PprojectId: 3,
-      name: "KXL",
-      projectImage: H4,
-      filterTag: "ux"
-    },
+  //   {
+  //     PprojectId: 3,
+  //     name: "KXL",
+  //     projectImage: H4,
+  //     filterTag: "ux"
+  //   },
 
-    {
-      PprojectId: 4,
-      name: "TCO",
-      projectImage: H3,
-      filterTag: "ux"
-    },
+  //   {
+  //     PprojectId: 4,
+  //     name: "TCO",
+  //     projectImage: H3,
+  //     filterTag: "ux"
+  //   },
 
-  ]
+  // ]
 
+
+  // function to filter array
+  
   return (
 
     <div>
