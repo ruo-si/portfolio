@@ -66,10 +66,10 @@ const Home = () => {
 
         <div className="filter-wrap">
 
-          <div className="filter">All</div>
-          <div className="filter">USER EXPERIENCE</div>
-          <div className="filter">3D/VR</div>
-          <div className="filter">WEB DEVELOPMENT</div>
+          <button className="filter">All</button>
+          <button className="filter">USER EXPERIENCE</button>
+          <button className="filter">3D/VR</button>
+          <button className="filter">WEB DEVELOPMENT</button>
 
         </div>
 
