@@ -72,6 +72,7 @@
 .project-detail{
     display: inline;
     float: left;
+    width:30%
 }
 
 .project-detail-wrap{

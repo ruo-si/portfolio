@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import React, { Suspense, useState, useEffect } from 'react'
 import { Canvas, useThree, useLoader } from '@react-three/fiber'
 import { Html, OrbitControls, Loader } from '@react-three/drei'
-
+import "./vr.css";
 const store = [
   { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: '/360_DC_777.jpg', link: 1 },
   { name: 'inside', color: 'lightblue', position: [15, 0, 0], url: '/360_DC_777.jpg', link: 0 }
@@ -39,7 +39,7 @@ function Vr2() {
 
   return (
 
-    <Canvas frameloop="demand" camera={{ position: [0, 0, 0.1] }}>
+    <Canvas className="canvas" frameloop="demand" camera={{ position: [0, 0, 0.1] }}>
       <OrbitControls enableZoom={false} enablePan={false} enableDamping dampingFactor={0.2} autoRotate={false} rotateSpeed={-0.5} />
       <Suspense
         fallback={
