@@ -27,8 +27,9 @@ function App() {
     <Router>
 
       <div>
-        <TopNav />
 
+        <TopNav />
+        
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/press" component={Press} />
@@ -39,15 +40,12 @@ function App() {
         <Route exact path="/pd-5" component={Pd5} />
         <Route exact path="/pd-6" component={Pd6} />
         <Route exact path="/pd-7" component={Pd7} />
-
         <Route exact path="/vr-1" component={Vr1} />
-       
-
         <Route exact path="/pd-lt" component={Pd_Lutron} />
-
         <Route exact path="/vr-1d" component={Vr_1d} />
         
         <Footer />
+
       </div>
 
     </Router>
