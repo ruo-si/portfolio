@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./home.css";
 // import testImg from "../assets/test.png";
 // import hero from "../assets/hero_asset.jpg";
 
+import ProjectArray from "../utils/projects"
 
 import ProjectCard from "../components/projectCard"
 
 const Home = () => {
 
+  const [items, setItems] = useState(ProjectArray);
 
   return (
 
@@ -86,8 +88,30 @@ const Home = () => {
             <div className="project-title">WeWork<br />Shenzhen</div>
           </div>
         </div> */}
+        {
 
-        <ProjectCard/>
+          items.map((elements) => {
+            const { id, name, image, location, filterTag } = elements;
+            return (
+              <div>
+
+                <div className="container">
+                  <div className="thumb-left">
+                    <img alt="img" src={image} className="thumb" />
+                    <div className="project-title">{name}<br />{location}</div>
+                  </div>
+
+                  <div className="thumb-right">
+                    <img alt="img" src={image} className="thumb" />
+                    <div className="project-title">{name}<br />{location}</div>
+                  </div>
+                </div>
+
+              </div>
+            )
+          })
+        }
+
 
       </div>
     </div>
