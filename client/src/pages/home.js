@@ -1,18 +1,29 @@
-import React from "react";
+import React, { useState } from "react";
 import "./home.css";
 // import testImg from "../assets/test.png";
 // import hero from "../assets/hero_asset.jpg";
 
-
-import ProjectCard from "../components/projectCard"
+import ProjectArray from "../utils/projects"
 
 const Home = () => {
 
+  // initial state
+  const [items, setItems] = useState(ProjectArray);
+
+  // filtered state
+  const filteredProjects = (selectedFilter) => {
+    const updatedItems = ProjectArray.filter((currEl) => {
+      return currEl.filterTag === selectedFilter;
+    })
+
+    setItems(updatedItems);
+  }
 
   return (
 
     <div>
 
+      {/* top hero text */}
       <div className="index-wrap">
         <div className="index-manifesto">
           I am a creative designer and full stack developer in{" "}
@@ -24,70 +35,39 @@ const Home = () => {
           <span class="accent-text">Web Development</span>.
         </div>
 
+        {/* filter buttons */}
         <div className="filter-wrap">
 
-          <button className="filter">All</button>
-          <button className="filter">USER EXPERIENCE</button>
-          <button className="filter">3D/VR</button>
-          <button className="filter">WEB DEVELOPMENT</button>
+          <button className="filter" onClick={() => setItems(ProjectArray)}> All</button>
+          <button className="filter" onClick={() => filteredProjects("ux")}> USER EXPERIENCE</button>
+          <button className="filter" onClick={() => filteredProjects("3d-vr")}>3D/VR</button>
+          <button className="filter" onClick={() => filteredProjects("web")}>WEB DEVELOPMENT</button>
 
         </div>
 
+        {/* map function and render filtered results */}
+        {
+          items.map((elements) => {
+            const { name, image, location } = elements;
+            return (
+              <div>
 
-        {/* <div className="container">
-          <img alt="img" src={hero} className="thumb" />
-          <div className="project-title">WeWork<br />Shenzhen</div>
-        </div>
+                <div className="container">
+                  <div className="thumb-left">
+                    <img alt="img" src={image} className="thumb" />
+                    <div className="project-title">{name}<br />{location}</div>
+                  </div>
 
-        <div className="container">
-          <div className="thumb-left">
-            <img alt="img" src={H1} className="thumb" />
-            <div className="project-title">WeWork<br />Shenzhen</div>
-          </div>
+                  <div className="thumb-right">
+                    <img alt="img" src={image} className="thumb" />
+                    <div className="project-title">{name}<br />{location}</div>
+                  </div>
+                </div>
 
-          <div className="thumb-right">
-            <img alt="img" src={H2} className="thumb" />
-            <div className="project-title">WeWork<br />Shenzhen</div>
-          </div>
-        </div>
-
-        <div className="container">
-          <div className="thumb-left">
-            <img alt="img" src={H3} className="thumb" />
-            <div className="project-title">WeWork<br />Shenzhen</div>
-          </div>
-
-          <div className="thumb-right">
-            <img alt="img" src={H4} className="thumb" />
-            <div className="project-title">WeWork<br />Shenzhen</div>
-          </div>
-        </div>
-
-        <div className="container">
-          <div className="thumb-left">
-            <img alt="img" src={H5} className="thumb" />
-            <div className="project-title">WeWork<br />Shenzhen</div>
-          </div>
-
-          <div className="thumb-right">
-            <img alt="img" src={H6} className="thumb" />
-            <div className="project-title">WeWork<br />Shenzhen</div>
-          </div>
-        </div>
-
-        <div className="container">
-          <div className="thumb-left">
-            <img alt="img" src={H7} className="thumb" />
-            <div className="project-title">WeWork<br />Shenzhen</div>
-          </div>
-
-          <div className="thumb-right">
-            <img alt="img" src={H8} className="thumb" />
-            <div className="project-title">WeWork<br />Shenzhen</div>
-          </div>
-        </div> */}
-
-        <ProjectCard/>
+              </div>
+            )
+          })
+        }
 
       </div>
     </div>
