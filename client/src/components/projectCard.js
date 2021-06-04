@@ -1,7 +1,10 @@
 import React from "react";
 // import { Link } from "react-router-dom";
+
 import H1 from "../assets/H_1.jpg";
 import H2 from "../assets/H_2.jpg";
+
+// import ProjectsArray from "../utils/projects"
 
 function ProjectCard() {
 
