@@ -7,8 +7,10 @@ import ProjectArray from "../utils/projects"
 
 const Home = () => {
 
+  // initial state
   const [items, setItems] = useState(ProjectArray);
 
+  // filtered state
   const filteredProjects = (selectedFilter) => {
     const updatedItems = ProjectArray.filter((currEl) => {
       return currEl.filterTag === selectedFilter;
@@ -21,6 +23,7 @@ const Home = () => {
 
     <div>
 
+      {/* top hero text */}
       <div className="index-wrap">
         <div className="index-manifesto">
           I am a creative designer and full stack developer in{" "}
@@ -32,6 +35,7 @@ const Home = () => {
           <span class="accent-text">Web Development</span>.
         </div>
 
+        {/* filter buttons */}
         <div className="filter-wrap">
 
           <button className="filter" onClick={() => setItems(ProjectArray)}> All</button>
@@ -41,8 +45,8 @@ const Home = () => {
 
         </div>
 
+        {/* map function and render filtered results */}
         {
-
           items.map((elements) => {
             const { name, image, location } = elements;
             return (
