@@ -1,53 +1,13 @@
 import React from "react";
 import "./home.css";
 // import testImg from "../assets/test.png";
-import hero from "../assets/hero_asset.jpg";
-import H1 from "../assets/H_1.jpg";
-import H2 from "../assets/H_2.jpg";
-import H3 from "../assets/H_3.jpg";
-import H4 from "../assets/H_4.jpg";
-import H5 from "../assets/H_5.jpg";
-import H6 from "../assets/H_6.jpg";
-import H7 from "../assets/H_7.jpg";
-import H8 from "../assets/H_8.jpg";
+// import hero from "../assets/hero_asset.jpg";
+
 
 import ProjectCard from "../components/projectCard"
 
 const Home = () => {
 
-  // const projectsArray = [
-  //   {
-  //     PprojectId: 1,
-  //     name: "WeWork KDX",
-  //     projectImage: H6,
-  //     filterTag: "3d-vr"
-  //   },
-
-  //   {
-  //     PprojectId: 2,
-  //     name: "TCO",
-  //     projectImage: H5,
-  //     filterTag: "web"
-  //   },
-
-  //   {
-  //     PprojectId: 3,
-  //     name: "KXL",
-  //     projectImage: H4,
-  //     filterTag: "ux"
-  //   },
-
-  //   {
-  //     PprojectId: 4,
-  //     name: "TCO",
-  //     projectImage: H3,
-  //     filterTag: "ux"
-  //   },
-
-  // ]
-
-
-  // function to filter array
 
   return (
 
