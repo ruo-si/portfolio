@@ -1,24 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./components.css";
 
-function TopNav() {
-
+const TopNav =() => {
   return (
-
-    <div>
-
-      <Link to="/"> Victoria Lee </Link>
-
-      <Link to="/"> Works </Link>
-
-      <Link to="/about"> About </Link>
-
-      <Link to="/press"> Press </Link>
-
+    <div className="header-wrap">
+      <div className="header-left">
+        <Link to="/"> Victoria Lee </Link>
+      </div>
+      
+      <div >
+        <Link to="/about" className="header-right"> About </Link>
+        <Link to="/press" className="header-right"> Press </Link>
+      </div>
     </div>
-
-  )
-
+  );
 }
 
 export default TopNav;
