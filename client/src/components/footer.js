@@ -5,22 +5,21 @@ import mail from "../assets/mail.svg";
 import scroll from "../assets/scroll.svg";
 
 const Footer = () => {
-  const [show, setShow] = useState(true);
-  const controlFooter = () => {
-    if (window.scrollY > 100) {
-      setShow(false);
-    } else {
-      setShow(true);
-    }
-  };
+  const [show, setShow] = useState(true)
+  const controlNavbar = () => {
+      if (window.scrollY > 100) {
+          setShow(false)
+      } else {
+          setShow(true)
+      }
+  }
 
   useEffect(() => {
-    window.addEventListener("scroll", controlFooter);
-    return () => {
-      window.removeEventListener("scroll", controlFooter);
-    };
-  }, []);
-
+      window.addEventListener('scroll', controlNavbar)
+      return () => {
+          window.removeEventListener('scroll', controlNavbar)
+      }
+  }, [])
   return (
     <footer>
       <div className="scroll">
@@ -28,8 +27,8 @@ const Footer = () => {
       </div>
       <Link to="/about">
         {" "}
-        <div className="mail">
-        <img alt="img" src={mail} />
+        <div >
+        <img alt="img" src={mail} className="mail"/>
         </div>
       </Link>
     </footer>

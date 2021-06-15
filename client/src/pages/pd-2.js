@@ -9,9 +9,9 @@ const Project2 = () => {
 
     return (
 
-        <div>
+        <div className="pd-container">
 
-            <div>
+                    <div className="head-wrap"className="head-wrap">
 
                 <ReactCompareImage leftImage={H_MX_BOT_DAY} rightImage={H_MX_BOT_NIGHT} horizontal />
 

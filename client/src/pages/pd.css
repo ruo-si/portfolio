@@ -1,6 +1,7 @@
-.container {
+.pd-container {
   width: 80vw;
   margin: auto;
+  margin-top:160px
 }
 
 .image-wrap-left {
@@ -79,7 +80,7 @@
   overflow: auto;
 }
 
-.header-wrap {
+.head-wrap {
   margin-bottom: 160px;
   width: 100%;
   height: auto;
@@ -163,4 +164,13 @@ video {
   margin: auto;
   width: 75%;
   padding-bottom: 120px;
+}
+
+.img-wrap{
+width:100%
+}
+
+.cross-wrap{
+    margin-bottom: 120px;
+    overflow: auto;
 }

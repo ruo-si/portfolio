@@ -63,12 +63,16 @@ button {
   margin: 0;
   padding: 0;
   cursor: pointer;
-  width: 45%;
+  /* width: 45%; */
   display: block;
   float: left;
-  text-align: left;
+  text-align: center;
   margin-top: 30px;
   font-size: 16px;
+}
+
+button:focus{
+    font-weight: 700;
 }
 
 form {

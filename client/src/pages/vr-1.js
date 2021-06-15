@@ -1,11 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./vr.css";
 import HeaderImage from "../assets/CHI_WAB_360_LNG 1.jpg";
+import globe from "../assets/globe.svg";
 const Vr1 = () => {
   return (
     <div>
-      <div>
+      <div className="vr-wrap">
+      <Link to="/vr-1d">
         <img alt="head" src={HeaderImage} className="vr-header" />
+        <img alt="360" src={globe} className="globe-head"/>
+        </Link>
+        
       </div>
       <div className="project-detail-wrap">
         <div className="container">
