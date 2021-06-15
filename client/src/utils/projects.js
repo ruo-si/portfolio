@@ -10,26 +10,29 @@ import H8 from "../assets/H_8.jpg";
 const ProjectsArray = [
   {
     id: 1,
-    name: "The Wharf",
-    image: H1,
-    location: "Washington, D.C.",
-    filterTag: "3d-vr"
+    name: "WeWork KDX",
+    image: H4,
+    location: "Tokyo, Japan",
+    filterTag: "3d-vr",
+    path: "/wework-tokyo"
   },
 
   {
     id: 2,
-    name: "South Street Seaport",
-    image: H2,
-    location: "New York City, NY",
-    filterTag: "3d-vr"
+    name: "The Wharf",
+    image: H1,
+    location: "Washington, D.C.",
+    filterTag: "3d-vr",
+    path: "/shop-architects"
   },
 
   {
     id: 3,
-    name: "Competition",
-    image: H3,
-    location: "Seoul, Korea",
-    filterTag: "web"
+    name: "TCO Legacy West",
+    image: H7,
+    location: "Texas, USA",
+    filterTag: "ux",
+    path: "/tco"
   },
 
   {
@@ -37,7 +40,8 @@ const ProjectsArray = [
     name: "WeWork KDX",
     image: H4,
     location: "Tokyo, Japan",
-    filterTag: "ux"
+    filterTag: "3d-vr",
+    path: "/wework-latam" 
   },
 
   {
@@ -45,28 +49,32 @@ const ProjectsArray = [
     name: "Lord & Taylor",
     image: H5,
     location: "New York City, NY",
-    filterTag: "ux"
+    filterTag: "ux",
+    path:""
   },
   {
     id: 6,
     name: "TCO",
     image: H6,
     location: "Tokyo, Japan",
-    filterTag: "3d-vr"
+    filterTag: "3d-vr",
+    path:""
   },
   {
     id: 7,
     name: "TCO Legacy West",
     image: H7,
     location: "Texas, USA",
-    filterTag: "ux"
+    filterTag: "ux",
+    path:""
   },
   {
     id: 8,
     name: "TCO",
     image: H8,
     location: "Tokyo, Japan",
-    filterTag: "web"
+    filterTag: "web",
+    path:""
   },
 ];
 
