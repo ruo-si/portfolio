@@ -5,7 +5,7 @@ import material from "../assets/wot_materials@2x.jpg";
 import placeHolder from "../assets/wot_placeholder@2x.png";
 const ProjectWasteOfTime = () => {
   return (
-    <div className="container">
+    <div className="pd-container">
       <div className="project-detail-wrap">
         <div className="project-name">Waste of Time</div>
         <div className="project-credit">
@@ -25,7 +25,7 @@ const ProjectWasteOfTime = () => {
           </div>
         </div>
       </div>
-      <div className="header-wrap">
+      <div className="head-wrap">
         <video autoPlay muted loop>
           <source src={headerVideo} type="video/mp4" />
         </video>
@@ -98,7 +98,7 @@ const ProjectWasteOfTime = () => {
 
       <div>
         <div className="cross-title">The Brand</div>
-        <img src={material} className="header-wrap" />
+        <img src={material} className="head-wrap" />
       </div>
 
       <div className="split-wrap">

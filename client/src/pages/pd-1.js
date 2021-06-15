@@ -12,7 +12,7 @@ import Material from "../assets/material_collage.jpg";
 
 const Project1 = () => {
   return (
-    <div className="container">
+    <div className="pd-container">
       <div className="project-detail-wrap">
         <div className="project-name">WeWork KDX</div>
         <div className="project-credit">
@@ -30,7 +30,7 @@ const Project1 = () => {
         </div>
       </div>
 
-      <div className="header-wrap">
+      <div className="head-wrap">
         <ReactCompareImage
           leftImage={H_JP_TOK_DAY}
           rightImage={H_JP_TOK_NIGHT}
@@ -58,14 +58,14 @@ const Project1 = () => {
         <img alt="img" src={V_JP_TOK_1} className="image-wrap-right" />
       </div>
 
-      <div className="header-wrap">
-        <img alt="img" src={Material} />
+      <div className="head-wrap">
+        <img alt="img" src={Material} className="img-wrap" />
         <div className="caption">WeWork Lorem ipsum</div>
 
       </div>
 
-      <div>
-        <div className="cross-title">Similar Project</div>
+      <div className="cross-wrap">
+        <div className="cross-title">Similar Projects</div>
         <div className="thumb-left">
           <img alt="img" src={H1} className="thumb" />
           <div className="project-title">

@@ -4,7 +4,7 @@ import "./components.css";
 
 const TopNav =() => {
   return (
-    <div className="header-wrap">
+    <div className="nav-wrap">
       <div className="header-left">
         <Link to="/"> Victoria Lee </Link>
       </div>

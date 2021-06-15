@@ -3,6 +3,9 @@ import React, { Suspense, useState, useEffect } from 'react'
 import { Canvas, useThree, useLoader } from '@react-three/fiber'
 import { Html, OrbitControls, Loader } from '@react-three/drei'
 import "./vr.css";
+import closeBtn from "../assets/close.svg";
+import globe from "../assets/globe.svg";
+import { Link } from "react-router-dom";
 const store = [
   { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: '/360_DC_777.jpg', link: 1 },
   { name: 'inside', color: 'lightblue', position: [15, 0, 0], url: '/360_DC_777.jpg', link: 0 }
@@ -38,6 +41,7 @@ function Preload() {
 function Vr2() {
 
   return (
+    <div>
 
     <Canvas className="canvas" frameloop="demand" camera={{ position: [0, 0, 0.1] }}>
       <OrbitControls enableZoom={false} enablePan={false} enableDamping dampingFactor={0.2} autoRotate={false} rotateSpeed={-0.5} />
@@ -50,7 +54,15 @@ function Vr2() {
         <Preload />
         <Portals />
       </Suspense>
+      
     </Canvas>
+    <div className="close-button">
+      <Link to="/vr-1">
+      <img alt="close" src={closeBtn}/>
+      </Link>
+    </div>
+    <img alt="360" src={globe} className="globe"/>
+    </div>
 
   )
 }

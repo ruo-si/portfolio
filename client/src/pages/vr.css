@@ -1,8 +1,48 @@
 .canvas{
 position: absolute !important;
 z-index: 100 !important;
+cursor: grab;
+animation: fadeIn linear 600ms;
+-webkit-animation: fadeIn linear 600ms;
+-moz-animation: fadeIn linear 600ms;
+-o-animation: fadeIn linear 600ms;
+-ms-animation: fadeIn linear 600ms;
 }
 
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+.vr-wrap{
+    position: relative;
+}
 .vr-header{
     width: 100%;
+}
+
+.close-button{
+    z-index:100;
+    position: absolute;
+    top: 30px;
+    right:30px
+}
+
+.globe{
+    z-index:101;
+    position: absolute;
+    width:60px;
+    bottom:40px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.globe-head{
+    z-index:101;
+    position: absolute;
+    width:60px;
+    left: 50%;
+    bottom: 30px;
+    transform: translate(-50%, -50%);
+
 }
