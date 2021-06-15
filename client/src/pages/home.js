@@ -1,8 +1,6 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom"
 import "./home.css";
-// import testImg from "../assets/test.png";
-// import hero from "../assets/hero_asset.jpg";
-
 import ProjectArray from "../utils/projects"
 
 const Home = () => {
@@ -48,20 +46,25 @@ const Home = () => {
         {/* map function and render filtered results */}
         {
           items.map((elements) => {
-            const { name, image, location } = elements;
+            const { name, image, location, path } = elements;
             return (
               <div>
 
                 <div className="container">
                   <div className="thumb-left">
-                    <img alt="img" src={image} className="thumb" />
+
+                    <Link to={path}>
+                    <img alt="img" src={image} className="thumb"/>
+                    </Link>
+
                     <div className="project-title">{name}<br />{location}</div>
                   </div>
 
-                  <div className="thumb-right">
+                  {/* <div className="thumb-right">
                     <img alt="img" src={image} className="thumb" />
                     <div className="project-title">{name}<br />{location}</div>
-                  </div>
+                  </div> */}
+
                 </div>
 
               </div>
