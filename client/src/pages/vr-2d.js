@@ -39,7 +39,7 @@ function Preload() {
   return null
 }
 
-function Vr1() {
+function Vr2() {
 
   return (
     <div>
@@ -68,4 +68,4 @@ function Vr1() {
   )
 }
 
-export default Vr1
+export default Vr2
