@@ -1,14 +1,14 @@
 import * as THREE from 'three'
 import React, { Suspense, useState } from 'react'
 import { Canvas, useLoader } from '@react-three/fiber'
-import { Html, OrbitControls,} from '@react-three/drei'
+import { Html, OrbitControls} from '@react-three/drei'
 import "./vr.css";
 import closeBtn from "../assets/close.svg";
 import globe from "../assets/globe.svg";
 import { Link } from "react-router-dom";
 
 const store = [
-  { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: './360_IL_CHI.jpg', link: 1 },
+  { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: '/360_IL_CHI.jpg', link: 1 },
 ]
 
 function Dome({texture}) {
@@ -29,7 +29,15 @@ function Portals() {
   return <Dome onClick={() => set(link)} {...props} texture={maps[which]} />
 }
 
-function Vr2() {
+// function Preload() {
+//   // This component pre-loads textures in order to lessen loading impact when clicking portals
+//   const { gl } = useThree()
+//   const maps = useLoader(THREE.TextureLoader, store.map((entry) => entry.url)) // prettier-ignore
+//   useEffect(() => maps.forEach(gl.initTexture), [maps])
+//   return null
+// }
+
+function Vr1() {
 
   return (
     
@@ -40,10 +48,10 @@ function Vr2() {
         <Suspense
           fallback={
             <Html>
-
+              {/* <Loader /> */}
             </Html>
           }>
-
+          {/* <Preload /> */}
           <Portals />
         </Suspense>
 
@@ -62,4 +70,4 @@ function Vr2() {
   )
 }
 
-export default Vr2
+export default Vr1
