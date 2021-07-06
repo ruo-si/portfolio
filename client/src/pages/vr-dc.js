@@ -7,7 +7,7 @@ import globe from "../assets/globe.svg";
 const VR_DC = () => {
 
   return (
-    
+
     <div>
       <div className="vr-wrap">
 
@@ -22,17 +22,21 @@ const VR_DC = () => {
 
         <div className="container">
 
-          <div className="project-name">WeWork KDX</div>
+          {/* title */}
+          <div className="project-name">WeWork
+            <br />
+            Washington D.C.
+          </div>
 
           {/* project info */}
           <div className="project-credit">
-            
+
             <div>Design Director: Ash Every</div>
             <div>Interior Design Lead: Daiki Nakazawa</div>
             <div>Arts & Graphics Lead: Kyle Stecker & Asuka Watanabe</div>
             <div>Visualization Lead: Victoria Lee, & Sheena Garcia</div>
             <div>Software: Autodesk 3DsMax, V-Ray Render Engine, Corona Render Engine, Photoshop, ThreeJS, JavaScript, React, HTML, CSS</div>
-          
+
           </div>
 
           {/* description */}
@@ -46,7 +50,7 @@ const VR_DC = () => {
               reprehenderit in voluptate velit esse cillum dolore eu fugiat
               nulla pariatur.
             </div>
-            
+
           </div>
         </div>
       </div>

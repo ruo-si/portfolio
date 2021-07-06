@@ -29,7 +29,7 @@ const Home = () => {
           creative strategy, <span class="accent-text">
             Immersive 3D/VR
           </span>{" "}
-          interactive content creation and{" "}
+          interactive visual content creation and{" "}
           <span class="accent-text">Web Development</span>.
         </div>
 

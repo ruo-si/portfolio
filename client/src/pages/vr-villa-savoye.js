@@ -4,7 +4,7 @@ import "./vr.css";
 import HeaderImage from "../assets/360_KR_SEO_LNG.jpg";
 import globe from "../assets/globe.svg";
 
-const VR_SEOUL = () => {
+const VR_VILLA = () => {
 
   return (
 
@@ -30,20 +30,25 @@ const VR_SEOUL = () => {
 
           {/* project info */}
           <div className="project-credit">
-
+            
+            <div>Design Director: Ash Every</div>
             <div>Visualization Lead: Victoria Lee & Sheena Garcia</div>
-            <div>Interior Design Lead: Christina Jih & Hayden Shin</div>
-            <div>Arts & Graphics Lead: Kristal Raelene Melson</div>
-            <div>Local Art consultant: D'AMUSEMentS</div>
+            <div>Interior Design Lead: Daiki Nakazawa</div>
+            <div>Arts & Graphics Lead: Kyle Stecker & Asuka Watanabe</div>
             <div>Software: Autodesk 3DsMax, V-Ray Render Engine, Corona Render Engine, Photoshop, ThreeJS, JavaScript, React, HTML, CSS</div>
-
+            
           </div>
 
           {/* description */}
           <div className="project-detail">
 
             <div>
-              This is the vr experience developed for the WeWork Jongno Tower, Seoul Korea location.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
             </div>
 
           </div>
@@ -53,4 +58,4 @@ const VR_SEOUL = () => {
   );
 };
 
-export default VR_SEOUL;
+export default VR_VILLA;

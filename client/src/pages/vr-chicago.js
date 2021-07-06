@@ -22,31 +22,31 @@ const VR_CHICAGO = () => {
 
         <div className="container">
 
-          <div className="project-name">WeWork KDX</div>
+          <div className="project-name">WeWork
+            <br />
+            Chicago
+          </div>
 
           {/* project info */}
           <div className="project-credit">
-            
-            <div>Design Director: Ash Every</div>
-            <div>Interior Design Lead: Daiki Nakazawa</div>
-            <div>Arts & Graphics Lead: Kyle Stecker & Asuka Watanabe</div>
+
             <div>Visualization Lead: Victoria Lee, & Sheena Garcia</div>
-            <div>Software: Autodesk 3DsMax, V-Ray Render Engine, Corona Render Engine, Photoshop, ThreeJS, JavaScript, React, HTML, CSS</div>Ï
-          
+            <div>Interior Design Lead: Kenny Wang</div>
+            <div>Arts & Graphics Lead: Teresa Wozniak</div>
+            <div>Software: Autodesk 3DsMax, V-Ray Render Engine, Corona Render Engine, Photoshop, ThreeJS, JavaScript, React, HTML, CSS</div>
+
           </div>
 
           {/* description */}
           <div className="project-detail">
 
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+
+              Contribution:
+              <br />
+              immersive experience developed for the 330 N Wabash Location in Chicago, Il.
             </div>
-            
+
           </div>
         </div>
       </div>
