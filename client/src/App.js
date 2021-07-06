@@ -21,13 +21,15 @@ import Pd8 from "./pages/pd-WasteOfTime"
 
 // vr projects
 import VR_CHICAGO from "./pages/vr-chicago"
-import Vr2 from "./pages/vr-2"
+import VR_DC from "./pages/vr-dc"
 import VR_LA from "./pages/vr-la"
-import Vr4 from "./pages/vr-4"
+import VR_SEOUL from "./pages/vr-seoul"
+
+// vr 360
 import VR_CHICAGO_360 from "./pages/vr-chicago-360"
-import Vr_2d from "./pages/vr-2d"
+import VR_DC_360 from "./pages/vr-dc-360"
 import VR_LA_360 from "./pages/vr-la-360"
-import Vr_4d from "./pages/vr-4d"
+import VR_SEOUL_360 from "./pages/vr-seoul-360"
 
 // product projects
 import Pd_Lutron from "./pages/pd-Lutron"
@@ -59,15 +61,15 @@ function App() {
 
         {/* vr projects */}
         <Route exact path="/vr-chicago" component={VR_CHICAGO} />
-        <Route exact path="/vr-2" component={Vr2} />
+        <Route exact path="/vr-dc" component={VR_DC} />
         <Route exact path="/vr-la" component={VR_LA} />
-        <Route exact path="/vr-4" component={Vr4} />
+        <Route exact path="/vr-seoul" component={VR_SEOUL} />
 
         {/* vr 360 */}
         <Route exact path="/vr-chicago-360" component={VR_CHICAGO_360} />
-        <Route exact path="/vr-2d" component={Vr_2d} />
+        <Route exact path="/vr-dc-360" component={VR_DC_360} />
         <Route exact path="/vr-la-360" component={VR_LA_360} />
-        <Route exact path="/vr-3d" component={Vr_4d} />
+        <Route exact path="/vr-seoul-360" component={VR_SEOUL_360} />
 
         {/* product projects */}
         <Route exact path="/pd-lt" component={Pd_Lutron} />

@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import React, { Suspense, useState } from 'react'
 import { Canvas, useLoader } from '@react-three/fiber'
-import { Html, OrbitControls} from '@react-three/drei'
+import { Html, OrbitControls } from '@react-three/drei'
 import "./vr.css";
 import closeBtn from "../assets/close.svg";
 import globe from "../assets/globe.svg";
@@ -11,7 +11,7 @@ const store = [
   { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: '/360_IL_CHI.jpg', link: 1 },
 ]
 
-function Dome({texture}) {
+function Dome({ texture }) {
   return (
     <group>
       <mesh>
@@ -29,38 +29,35 @@ function Portals() {
   return <Dome onClick={() => set(link)} {...props} texture={maps[which]} />
 }
 
-// function Preload() {
-//   // This component pre-loads textures in order to lessen loading impact when clicking portals
-//   const { gl } = useThree()
-//   const maps = useLoader(THREE.TextureLoader, store.map((entry) => entry.url)) // prettier-ignore
-//   useEffect(() => maps.forEach(gl.initTexture), [maps])
-//   return null
-// }
-
-function Vr1() {
+function VR_CHICAGO_360 () {
 
   return (
-    
+
     <div>
 
+      {/* threeJS canvas */}
       <Canvas className="canvas" frameloop="demand" camera={{ position: [0, 0, 0.1] }}>
+
         <OrbitControls enableZoom={false} enablePan={false} enableDamping dampingFactor={0.1} autoRotate={true} rotateSpeed={-0.5} />
+
         <Suspense
           fallback={
             <Html>
-              {/* <Loader /> */}
+
             </Html>
           }>
-          {/* <Preload /> */}
           <Portals />
         </Suspense>
 
       </Canvas>
 
+      {/* navigation */}
       <div className="close-button">
-        <Link to="/vr-1">
+
+        <Link to="/vr-chicago">
           <img alt="close" src={closeBtn} />
         </Link>
+
       </div>
 
       <img alt="360" src={globe} className="globe" />
@@ -68,6 +65,6 @@ function Vr1() {
     </div>
 
   )
-}
+};
 
-export default Vr1
+export default VR_CHICAGO_360;
