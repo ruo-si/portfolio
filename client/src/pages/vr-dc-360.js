@@ -8,7 +8,7 @@ import globe from "../assets/globe.svg";
 import { Link } from "react-router-dom";
 
 const store = [
-  { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: '/360_LA_PACIFIC.jpg', link: 1 },
+  { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: '/360_DC_777.jpg', link: 1 },
 ]
 
 function Dome({ texture }) {
@@ -29,7 +29,7 @@ function Portals() {
   return <Dome onClick={() => set(link)} {...props} texture={maps[which]} />
 }
 
-function VR_LA_360() {
+function VR_DC_360 () {
 
   return (
 
@@ -54,7 +54,7 @@ function VR_LA_360() {
       {/* navigation */}
       <div className="close-button">
 
-        <Link to="/vr-la">
+        <Link to="/vr-dc">
           <img alt="close" src={closeBtn} />
         </Link>
 
@@ -67,4 +67,4 @@ function VR_LA_360() {
   )
 };
 
-export default VR_LA_360;
+export default VR_DC_360;

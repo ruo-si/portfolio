@@ -24,12 +24,12 @@ const Home = () => {
       {/* top hero text */}
       <div className="index-wrap">
         <div className="index-manifesto">
-          I am a creative designer and full stack developer in{" "}
+          I am a product designer and full stack developer specializing in{" "}
           <span class="accent-text">User Experience </span>
-          content creation, <span class="accent-text">
+          creative strategy, <span class="accent-text">
             Immersive 3D/VR
           </span>{" "}
-          interactive strategy and{" "}
+          interactive visual content creation and{" "}
           <span class="accent-text">Web Development</span>.
         </div>
 
