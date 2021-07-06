@@ -1,17 +1,20 @@
-import SHoP from "../assets/H_1.jpg";
-// import H2 from "../assets/H_2.jpg";
+import H1 from "../assets/H_1.jpg";
+import H2 from "../assets/H_2.jpg";
 import H3 from "../assets/H_3.jpg";
-import KDX from "../assets/H_4.jpg";
+import H4 from "../assets/H_4.jpg";
 import H5 from "../assets/H_5.jpg";
 import H6 from "../assets/H_6.jpg";
 import H7 from "../assets/H_7.jpg";
+import H8 from "../assets/H_8.jpg";
+import H9 from "../assets/H_9.jpg";
+import H10 from "../assets/H_10.jpg";
 // import H8 from "../assets/H_8.jpg";
 
 const ProjectsArray = [
   {
     id: 1,
     name: "WeWork - KDX",
-    image: KDX,
+    image: H1,
     location: "Tokyo, Japan",
     filterTag: "3d-vr",
     path: "/wework-tokyo"
@@ -20,7 +23,7 @@ const ProjectsArray = [
   {
     id: 2,
     name: "SHoP Architects",
-    image: SHoP,
+    image: H2,
     location: "New York, NY",
     filterTag: "3d-vr",
     path: "/shop-architects"
@@ -29,7 +32,7 @@ const ProjectsArray = [
   {
     id: 3,
     name: "Tiffany and Co. - LVMH",
-    image: H7,
+    image: H3,
     location: "New York, NY",
     filterTag: "ux",
     path: "/tco"
@@ -38,7 +41,7 @@ const ProjectsArray = [
   {
     id: 4,
     name: "Waste of Time",
-    image: H3,
+    image: H4,
     location: "New York, NY",
     filterTag: "web",
     path: "/waste-of-time" 
@@ -71,7 +74,7 @@ const ProjectsArray = [
   {
     id: 8,
     name: "WeWork - Pacific Center",
-    image: H3,
+    image: H8,
     location: "Los Angeles, CA",
     filterTag: "3d-vr",
     path: "/vr-la" 
@@ -79,7 +82,7 @@ const ProjectsArray = [
   {
     id: 9,
     name: "WeWork - Jongro Tower",
-    image: H3,
+    image: H9,
     location: "Seoul, Korea",
     filterTag: "3d-vr",
     path: "/vr-seoul" 
@@ -87,7 +90,7 @@ const ProjectsArray = [
   {
     id: 10,
     name: "WeWork - DC",
-    image: H3,
+    image: H10,
     location: "Washington DC",
     filterTag: "3d-vr",
     path: "/vr-dc" 
