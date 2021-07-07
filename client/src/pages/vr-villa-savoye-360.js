@@ -8,7 +8,7 @@ import globe from "../assets/globe.svg";
 import { Link } from "react-router-dom";
 
 const store = [
-  { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: '/360_KR_SEO.jpg', link: 1 },
+  { name: 'outside', color: 'lightpink', position: [10, 0, -15], url: '/360_VILLA SAVOYE_EXT.jpg', link: 1 },
 ]
 
 function Dome({ texture }) {
@@ -54,7 +54,7 @@ function VR_SEOUL_360() {
       {/* navigation */}
       <div className="close-button">
 
-        <Link to="/vr-seoul">
+        <Link to="/vr-villa">
           <img alt="close" src={closeBtn} />
         </Link>
 
