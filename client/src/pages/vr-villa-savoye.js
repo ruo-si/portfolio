@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./vr.css";
-import HeaderImage from "../assets/360_KR_SEO_LNG.jpg";
+import HeaderImage from "../assets/360_VILLA_LNG.jpg";
 import globe from "../assets/globe.svg";
 
 const VR_VILLA = () => {
@@ -12,7 +12,7 @@ const VR_VILLA = () => {
 
       <div className="vr-wrap">
 
-        <Link to="/vr-seoul-360">
+        <Link to="/vr-villa-360">
           <img alt="head" src={HeaderImage} className="vr-header" />
           <img alt="360" src={globe} className="globe-head" />
         </Link>
@@ -23,19 +23,17 @@ const VR_VILLA = () => {
 
         <div className="container">
 
-          <div className="project-name">WeWork
+          <div className="project-name">Villa Savoye
             <br />
-            Seoul, Korea
+            Poissy, France
           </div>
 
           {/* project info */}
           <div className="project-credit">
             
-            <div>Design Director: Ash Every</div>
-            <div>Visualization Lead: Victoria Lee & Sheena Garcia</div>
-            <div>Interior Design Lead: Daiki Nakazawa</div>
-            <div>Arts & Graphics Lead: Kyle Stecker & Asuka Watanabe</div>
-            <div>Software: Autodesk 3DsMax, V-Ray Render Engine, Corona Render Engine, Photoshop, ThreeJS, JavaScript, React, HTML, CSS</div>
+            <div>Creative Director: Kai Liang</div>
+            <div>Visualization Lead: Victoria Lee </div>
+            <div>Software: Autodesk 3DsMax, V-Ray Render Engine, Photoshop, ThreeJS, JavaScript, React, HTML, CSS</div>
             
           </div>
 
@@ -43,12 +41,8 @@ const VR_VILLA = () => {
           <div className="project-detail">
 
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              Contribution:
+
             </div>
 
           </div>

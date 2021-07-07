@@ -43,6 +43,7 @@ const VR_SEOUL = () => {
           <div className="project-detail">
 
             <div>
+              Contribution:
               This is the vr experience developed for the WeWork Jongno Tower, Seoul Korea location.
             </div>
 

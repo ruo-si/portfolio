@@ -3,7 +3,7 @@ import H2 from "../assets/H_2.jpg";
 import H3 from "../assets/H_3.jpg";
 import H4 from "../assets/H_4.jpg";
 import H5 from "../assets/H_5.jpg";
-import H6 from "../assets/H_6.jpg";
+import H6 from "../assets/H_11.jpg";
 import H7 from "../assets/H_7.jpg";
 import H8 from "../assets/H_8.jpg";
 import H9 from "../assets/H_9.jpg";
