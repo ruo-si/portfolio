@@ -1,5 +1,6 @@
 {
-  "name": "client",
+  "homepage" : "http://rialee.github.io/portfolio/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,5 +47,5 @@
   "devDependencies": {
     "gh-pages": "^3.2.3"
   },
-  "homepage" : "http://rialee.github.io/portfolio/"
+  
 }
