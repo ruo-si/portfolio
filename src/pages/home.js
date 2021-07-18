@@ -45,7 +45,8 @@ const Home = () => {
 
           <button className="filter" onClick={() => setItems(ProjectArray)}> All</button>
           <button className="filter" onClick={() => filteredProjects("ux")}> USER EXPERIENCE</button>
-          <button className="filter" onClick={() => filteredProjects("3d-vr")}>3D/VR</button>
+          <button className="filter" onClick={() => filteredProjects("3d")}>3D VISUALIZATION</button>
+          <button className="filter" onClick={() => filteredProjects("vr")}>VIRTUAL REALITY</button>
           <button className="filter" onClick={() => filteredProjects("web")}>WEB DEVELOPMENT</button>
 
         </div>

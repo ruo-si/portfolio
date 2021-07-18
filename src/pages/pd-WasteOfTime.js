@@ -15,7 +15,7 @@ const ProjectWasteOfTime = () => {
             Competitive Analysis, User Interviews, Strategy, Ideation,
             Prototyping, Usability Testing, Visual Design
           </div>
-          <div>Visualization Lead: Victoria Lee, & Sheena Garcia</div>
+          <div>Timeframe: 3 weeks</div>
         </div>
         <div className="project-detail">
           <div>
