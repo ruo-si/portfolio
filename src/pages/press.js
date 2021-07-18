@@ -7,7 +7,7 @@ import test3 from "../assets/V_ST_MET_1.jpg";
 function Press() {
   return (
     <div className="index-wrap">
-      <div className="press-head">Press</div>
+      <div className="press-head">Selected Works Published in Press</div>
       <div>
         <div class="title-wrap">
           <div className="year">2020</div>
