@@ -23,14 +23,21 @@ const Home = () => {
 
       {/* top hero text */}
       <div className="index-wrap">
+
         <div className="index-manifesto">
+
           I am a product designer and full stack developer specializing in{" "}
+
           <span class="accent-text">User Experience </span>
-          creative strategy, <span class="accent-text">
-            Immersive 3D/VR
-          </span>{" "}
-          interactive visual content creation and{" "}
+
+          and strategy,
+
+          <span class="accent-text"> Immersive 3D/VR </span>{" "}
+
+          interactive content creation and {" "}
+
           <span class="accent-text">Web Development</span>.
+
         </div>
 
         {/* filter buttons */}
@@ -54,7 +61,7 @@ const Home = () => {
                   <div className="thumb-left">
 
                     <Link to={path}>
-                    <img alt="img" src={image} className="thumb"/>
+                      <img alt="img" src={image} className="thumb" />
                     </Link>
 
                     <div className="project-title">{name}<br />{location}</div>
