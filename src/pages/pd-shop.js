@@ -29,10 +29,9 @@ const Project_SHoP= () => {
 
         {/* project info */}
         <div className="project-credit">
-          <div>Design Director: Ash Every</div>
-          <div>Interior Design Lead: Daiki Nakazawa</div>
-          <div>Arts & Graphics Lead: Kyle Stecker & Asuka Watanabe</div>
-          <div>Visualization Lead: Victoria Lee, & Sheena Garcia</div>
+          <div>Firm: SHoP Architects</div>
+          <div>Visualization Director: Mengyi Fan</div>
+          <div>Interactive Visualization Designer: Victoria Lee</div>
         </div>
         
         {/* project description */}
