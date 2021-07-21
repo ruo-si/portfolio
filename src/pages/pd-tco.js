@@ -57,7 +57,7 @@ const Project_Tco = () => {
         />
 
         {/* caption */}
-        <div className="caption">Space and material exploration for a location. The method of building the spaces in virtual space allowed the team to work globally and in real time.</div>
+        <div className="caption">Space and material exploration for a location. The method of building the spaces in virtually allowed the team to work globally and respond to market needs in realtime.</div>
 
       </div>
 
@@ -72,7 +72,7 @@ const Project_Tco = () => {
 
       <div className="text-img-wrap">
         <div className="text-wrap-left">
-          A 3D printed tileable plaster relief design to efficiently produced and launched around the world and used as wall covering telling the New York City Heritage of Tiffany and Co..
+          3D printed tileable plaster relief panel design to be efficiently produced and installed globally as wall covering telling the New York City Heritage of Tiffany and Co..
         </div>
         <img alt="img" src={H2} className="image-wrap-right" />
       </div>

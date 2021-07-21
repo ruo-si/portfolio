@@ -1,9 +1,9 @@
 import H1 from "../assets/H_1.jpg";
 import H2 from "../assets/H_2.jpg";
-import H3 from "../assets/H_3.jpg";
+// import H3 from "../assets/H_3.jpg";
 import H4 from "../assets/H_4.jpg";
 import H5 from "../assets/H_7.jpg";
-// import H6 from "../assets/H_11.jpg";
+import H6 from "../assets/H_6.jpg";
 import H7 from "../assets/H_5.jpg";
 import H8 from "../assets/H_8.jpg";
 import H9 from "../assets/H_9.jpg";
@@ -11,6 +11,9 @@ import H10 from "../assets/H_10.jpg";
 // import H11 from "../assets/H_10.jpg";
 import H12 from "../assets/H_12.jpg";
 // import H8 from "../assets/H_8.jpg";
+import H13 from "../assets/H_13.jpg";
+import H14 from "../assets/H_14.jpg";
+
 
 const ProjectsArray = [
   {
@@ -34,7 +37,7 @@ const ProjectsArray = [
   {
     id: 3,
     name: "Tiffany and Co. - LVMH Group",
-    image: H3,
+    image: H13,
     location: "New York, NY",
     filterTag: "3d",
     path: "/tco"
@@ -61,7 +64,7 @@ const ProjectsArray = [
   {
     id: 6,
     name: "Lutron X Amazon",
-    image: H12,
+    image: H6,
     location: "N/A",
     filterTag: "ux",
     path:"/kxl"
@@ -101,7 +104,7 @@ const ProjectsArray = [
   {
     id: 11,
     name: "WeWork - Calle 80 #53",
-    image: H12,
+    image: H14,
     location: "Barranquilla, Columbia",
     filterTag: "3d",
     path: "/wework-colombia" 
