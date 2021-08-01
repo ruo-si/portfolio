@@ -14,7 +14,7 @@ import WeWork_Tokyo from "./pages/pd-tokyo"
 import SHoP from "./pages/pd-shop"
 import Tco from "./pages/pd-tco"
 import WeWork_Colombia from "./pages/pd-colombia"
-import KXL from "./pages/pd-kxl"
+import LT from "./pages/pd-lt"
 
 
 // dev projects
@@ -59,7 +59,7 @@ function App() {
         <Route exact path="/shop-architects" component={SHoP} />
         <Route exact path="/tco" component={Tco} />
         <Route exact path="/wework-colombia" component={WeWork_Colombia} />
-        <Route exact path="/kxl" component={KXL} />
+        <Route exact path="/lt" component={LT} />
 
         {/* vr projects */}
         <Route exact path="/vr-chicago" component={VR_CHICAGO} />
