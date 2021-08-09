@@ -2,15 +2,22 @@ import React from "react";
 import "./pd.css";
 import ReactCompareImage from "react-compare-image";
 
-import H_JP_TOK_DAY from "../assets/H_JP_TOK_DAY.jpg";
-import H_JP_TOK_NIGHT from "../assets/H_JP_TOK_NIGHT.jpg";
-import V_JP_TOK_1 from "../assets/V_JP_TOK_1.jpg";
-// import V_JP_TOK_2 from "../assets/V_JP_TOK_2.jpg";
-import H1 from "../assets/H_1.jpg";
-import H2 from "../assets/H_2.jpg";
-import Material from "../assets/material_collage.jpg";
+// hero imagery
+import LT_Dusk from "../assets/LT_Dusk.jpg";
+// import LT_Morning from "../assets/LT_Morning.jpg";
+// import LT_Evening from "../assets/LT_Evening.jpg";
+import LT_Midnight from "../assets/LT_Midnight.jpg";
 
-const Project_SHoP= () => {
+// project imagery
+import H1 from "../assets/LT_V_PLACEHOLDER.jpg";
+import H2 from "../assets/LT_V_PLACEOLDER.jpg";
+import H3 from "../assets/LT_Evening.jpg";
+
+// related projects
+import R1 from "../assets/H_1.jpg";
+import R2 from "../assets/H_2.jpg";
+
+const Project_LT= () => {
 
   return (
 
@@ -19,14 +26,12 @@ const Project_SHoP= () => {
       <div className="project-detail-wrap">
 
         {/* title */}
-        <div className="project-name">KXL</div>
+        <div className="project-name">Lutron</div>
 
         {/* project info */}
         <div className="project-credit">
-          <div>Design Director: Ash Every</div>
-          <div>Interior Design Lead: Daiki Nakazawa</div>
-          <div>Arts & Graphics Lead: Kyle Stecker & Asuka Watanabe</div>
-          <div>Visualization Lead: Victoria Lee, & Sheena Garcia</div>
+          <div>Client: Lutron Electronics</div>
+          <div>Visualization Consultant: Victoria Lee</div>
         </div>
         
         {/* project description */}
@@ -35,7 +40,7 @@ const Project_SHoP= () => {
           <div>Art Direction, Visual Experience</div>
           <div>Tool:</div>
           <div>3DsMax, Corona, Forrest Pack, Adobe Suite</div>
-          <div>Timeframe:</div>
+          <div>Timeframe: Two Weeks</div>
         </div>
 
       </div>
@@ -44,19 +49,19 @@ const Project_SHoP= () => {
       <div className="head-wrap">
 
         <ReactCompareImage
-          leftImage={H_JP_TOK_DAY}
-          rightImage={H_JP_TOK_NIGHT}
+          leftImage={LT_Dusk}
+          rightImage={LT_Midnight}
           horizontal
         />
 
         {/* caption */}
-        <div className="caption">WeWork Lorem ipsum</div>
+        <div className="caption">Light Temperature Spatial Experience</div>
 
       </div>
 
       <div className="text-img-wrap">
 
-        <img alt="img" src={V_JP_TOK_1} className="image-wrap-left" />
+        <img alt="img" src={H1} className="image-wrap-left" />
 
         <div className="text-wrap-right">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -71,11 +76,11 @@ const Project_SHoP= () => {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam
         </div>
-        <img alt="img" src={V_JP_TOK_1} className="image-wrap-right" />
+        <img alt="img" src={H2} className="image-wrap-right" />
       </div>
 
       <div className="head-wrap">
-        <img alt="img" src={Material} className="img-wrap" />
+        <img alt="img" src={H3} className="img-wrap" />
         <div className="caption">WeWork Lorem ipsum</div>
 
       </div>
@@ -83,7 +88,7 @@ const Project_SHoP= () => {
       <div className="cross-wrap">
         <div className="cross-title">Similar Projects</div>
         <div className="thumb-left">
-          <img alt="img" src={H1} className="thumb" />
+          <img alt="img" src={R1} className="thumb" />
           <div className="project-title">
             WeWork
             <br />
@@ -92,7 +97,7 @@ const Project_SHoP= () => {
         </div>
 
         <div className="thumb-right">
-          <img alt="img" src={H2} className="thumb" />
+          <img alt="img" src={R2} className="thumb" />
           <div className="project-title">
             WeWork
             <br />
@@ -105,4 +110,4 @@ const Project_SHoP= () => {
   );
 };
 
-export default Project_SHoP;
+export default Project_LT;
