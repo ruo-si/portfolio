@@ -4,8 +4,8 @@ import ReactCompareImage from "react-compare-image";
 
 // hero imagery
 import LT_Dusk from "../assets/LT_Dusk.jpg";
-import LT_Morning from "../assets/LT_Morning.jpg";
-import LT_Evening from "../assets/LT_Evening.jpg";
+// import LT_Morning from "../assets/LT_Morning.jpg";
+// import LT_Evening from "../assets/LT_Evening.jpg";
 import LT_Midnight from "../assets/LT_Midnight.jpg";
 
 // project imagery
