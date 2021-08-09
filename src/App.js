@@ -36,7 +36,7 @@ import VR_VILLA_360 from "./pages/vr-villa-savoye-360"
 
 
 // product projects
-import Pd_Lutron from "./pages/pd-Lutron"
+// import Pd_Lutron from "./pages/pd-Lutron"
 
 
 function App() {
@@ -77,7 +77,7 @@ function App() {
         <Route exact path="/vr-villa-360" component={VR_VILLA_360} />
 
         {/* product projects */}
-        <Route exact path="/pd-lt" component={Pd_Lutron} />
+        {/* <Route exact path="/pd-lt" component={Pd_Lutron} /> */}
 
         {/* UX & dev projects */}
         <Route exact path="/waste-of-time" component={DEV_WASTE_OF_TIME} />
