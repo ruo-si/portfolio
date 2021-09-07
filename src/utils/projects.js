@@ -67,7 +67,7 @@ const ProjectsArray = [
     image: H6,
     location: "N/A",
     filterTag: "ux",
-    path:"/kxl"
+    path:"/lt"
   },
   {
     id: 7,

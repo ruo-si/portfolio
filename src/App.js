@@ -9,12 +9,14 @@ import TopNav from "./components/topNav";
 import About from "./pages/about"
 import Press from "./pages/press"
 
+// ux projects
+import LT from "./pages/pd-lt"
+
 // rendering projects
 import WeWork_Tokyo from "./pages/pd-tokyo"
 import SHoP from "./pages/pd-shop"
 import Tco from "./pages/pd-tco"
 import WeWork_Colombia from "./pages/pd-colombia"
-import LT from "./pages/pd-lt"
 
 
 // dev projects
