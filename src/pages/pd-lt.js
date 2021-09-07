@@ -1,6 +1,6 @@
 import React from "react";
 import "./pd.css";
-import ReactCompareImage from "react-compare-image";
+// import ReactCompareImage from "react-compare-image";
 
 // hero imagery
 import LT_Dusk from "../assets/LT_Dusk.jpg";
@@ -10,14 +10,14 @@ import LT_Midnight from "../assets/LT_Midnight.jpg";
 
 // project imagery
 import H1 from "../assets/LT_V_PLACEHOLDER.jpg";
-import H2 from "../assets/LT_V_PLACEOLDER.jpg";
+import H2 from "../assets/LT_V_PLACEHOLDER.jpg";
 import H3 from "../assets/LT_Evening.jpg";
 
 // related projects
 import R1 from "../assets/H_1.jpg";
 import R2 from "../assets/H_2.jpg";
 
-const Project_LT= () => {
+const Project_LT = () => {
 
   return (
 
@@ -33,7 +33,7 @@ const Project_LT= () => {
           <div>Client: Lutron Electronics</div>
           <div>Visualization Consultant: Victoria Lee</div>
         </div>
-        
+
         {/* project description */}
         <div className="project-detail">
           <div>Contribution:</div>
@@ -45,14 +45,24 @@ const Project_LT= () => {
 
       </div>
 
+      {/* buttons */}
+      <div>
+        <button>Dusk</button>
+        <button>Morning</button>
+        <button>Evening</button>
+        <button>Midnight</button>
+      </div>
+
       {/* compare image */}
       <div className="head-wrap">
 
-        <ReactCompareImage
+        {/* <ReactCompareImage
           leftImage={LT_Dusk}
           rightImage={LT_Midnight}
           horizontal
-        />
+        /> */}
+
+        <img src={LT_Dusk} alt="img" className="img" width="100%" />
 
         {/* caption */}
         <div className="caption">Light Temperature Spatial Experience</div>
@@ -105,7 +115,7 @@ const Project_LT= () => {
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 };

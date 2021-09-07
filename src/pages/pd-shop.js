@@ -47,6 +47,14 @@ const Project_SHoP= () => {
 
       </div>
 
+      {/* buttons */}
+      <div>
+        <button>Dusk</button>
+        <button>Morning</button>
+        <button>Evening</button>
+        <button>Midnight</button>
+      </div>
+
       {/* compare image */}
       <div className="head-wrap">
 
