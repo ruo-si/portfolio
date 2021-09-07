@@ -1,11 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import "./pd.css";
 // import ReactCompareImage from "react-compare-image";
 
 // hero imagery
 import LT_Dusk from "../assets/LT_Dusk.jpg";
-// import LT_Morning from "../assets/LT_Morning.jpg";
-// import LT_Evening from "../assets/LT_Evening.jpg";
+import LT_Morning from "../assets/LT_Morning.jpg";
+import LT_Evening from "../assets/LT_Evening.jpg";
 import LT_Midnight from "../assets/LT_Midnight.jpg";
 
 // project imagery
@@ -18,6 +18,35 @@ import R1 from "../assets/H_1.jpg";
 import R2 from "../assets/H_2.jpg";
 
 const Project_LT = () => {
+
+  const imageList = [
+    {
+      name: "dusk",
+      source: LT_Dusk
+    },
+    {
+      name: "morning",
+      source: LT_Morning
+    },
+    {
+      name: "evening",
+      source: LT_Evening
+    },
+    {
+      name: "midnight",
+      source: LT_Midnight
+    }
+  ]
+
+  // initial state
+  const [image, setImage] = useState(imageList)
+
+  const filteredImage = (selectedImage) => {
+    const updatedImage = imageList.filter((currEl) => {
+      return currEl.name ===selectedImage
+    })
+    setImage(updatedImage)
+  }
 
   return (
 
@@ -47,20 +76,14 @@ const Project_LT = () => {
 
       {/* buttons */}
       <div>
-        <button>Dusk</button>
-        <button>Morning</button>
-        <button>Evening</button>
-        <button>Midnight</button>
+        <button className="timeButton" onClick={() => filteredImage("dusk")}>Dusk</button>
+        <button className="timeButton" onClick={() => filteredImage("morning")}>Morning</button>
+        <button className="timeButton" onClick={() => filteredImage("evening")}>Evening</button>
+        <button className="timeButton" onClick={() => filteredImage("midnight")}>Midnight</button>
+      
       </div>
-
       {/* compare image */}
       <div className="head-wrap">
-
-        {/* <ReactCompareImage
-          leftImage={LT_Dusk}
-          rightImage={LT_Midnight}
-          horizontal
-        /> */}
 
         <img src={LT_Dusk} alt="img" className="img" width="100%" />
 
