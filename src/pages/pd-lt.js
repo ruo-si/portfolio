@@ -50,12 +50,14 @@ const Project_LT = () => {
   // initial state
   const [image, setImage] = useState(imageList)
 
+  // button filter select
   const filteredImage = (selectedImage) => {
     const updatedImage = imageList.filter((currEl) => {
       return currEl.name === selectedImage
     })
     setImage(updatedImage)
   }
+  console.log (image)
 
   return (
 
@@ -121,7 +123,7 @@ const Project_LT = () => {
 
       <div>
         <button>
-          <img alt="button" src={dusk_icon} />
+          <img alt="button" src={dusk_icon} onClick={() => filteredImage("dusk")}/>
           button
         </button>
 
