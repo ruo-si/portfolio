@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./pd.css";
 // import ReactCompareImage from "react-compare-image";
 
@@ -16,6 +16,15 @@ import H3 from "../assets/LT_Evening.jpg";
 // related projects
 import R1 from "../assets/H_1.jpg";
 import R2 from "../assets/H_2.jpg";
+
+// icons
+import dusk_icon from "../assets/icons/icon-15.svg"
+import morning_icon from "../assets/icons/icon-14.svg"
+import evening_icon from "../assets/icons/icon-16.svg"
+
+
+// video
+import siteVideo from "../assets/ae/window_10.mp4"
 
 const Project_LT = () => {
 
@@ -43,7 +52,7 @@ const Project_LT = () => {
 
   const filteredImage = (selectedImage) => {
     const updatedImage = imageList.filter((currEl) => {
-      return currEl.name ===selectedImage
+      return currEl.name === selectedImage
     })
     setImage(updatedImage)
   }
@@ -74,21 +83,19 @@ const Project_LT = () => {
 
       </div>
 
-      {/* buttons */}
-      <div>
-        <button className="timeButton" onClick={() => filteredImage("dusk")}>Dusk</button>
-        <button className="timeButton" onClick={() => filteredImage("morning")}>Morning</button>
-        <button className="timeButton" onClick={() => filteredImage("evening")}>Evening</button>
-        <button className="timeButton" onClick={() => filteredImage("midnight")}>Midnight</button>
-      
-      </div>
-      {/* compare image */}
+
+      {/* site animation */}
       <div className="head-wrap">
 
-        <img src={LT_Dusk} alt="img" className="img" width="100%" />
+        <video autoPlay muted loop>
+          <source src={siteVideo} type="video/mp4" />
+        </video>
+
+
+        {/* <img src={LT_Dusk} alt="img" className="img" width="100%" /> */}
 
         {/* caption */}
-        <div className="caption">Light Temperature Spatial Experience</div>
+        {/* <div className="caption">Light Temperature Spatial Experience</div> */}
 
       </div>
 
@@ -112,9 +119,33 @@ const Project_LT = () => {
         <img alt="img" src={H2} className="image-wrap-right" />
       </div>
 
+      <div>
+        <button>
+          <img alt="button" src={dusk_icon} />
+          button
+        </button>
+
+        <button>
+          <img alt="button" src={dusk_icon} />
+          button
+        </button>
+
+        <button>
+          <img alt="button" src={morning_icon} />
+          button
+        </button>
+
+        <button>
+          <img alt="button" src={evening_icon} />
+          button
+        </button>
+      </div>
+      
       <div className="head-wrap">
+
+      
         <img alt="img" src={H3} className="img-wrap" />
-        <div className="caption">WeWork Lorem ipsum</div>
+        <div className="caption">Try out the colour temperature feature!</div>
 
       </div>
 
@@ -128,6 +159,8 @@ const Project_LT = () => {
             Shenzhen
           </div>
         </div>
+
+
 
         <div className="thumb-right">
           <img alt="img" src={R2} className="thumb" />
