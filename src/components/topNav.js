@@ -3,10 +3,11 @@ import { Link } from "react-router-dom";
 import "./components.css";
 
 const TopNav =() => {
+
   return (
     <div className="nav-wrap">
       <div className="header-left">
-        <Link to="/"> Victoria Lee </Link>
+        <Link to="/"> Jamie Ruo-Si Lee </Link>
       </div>
       
       <div >

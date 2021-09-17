@@ -9,13 +9,13 @@
     -moz-animation: fadeIn linear 600ms;
     -o-animation: fadeIn linear 600ms;
     -ms-animation: fadeIn linear 600ms;
-   
 }
 
 @keyframes fadeIn {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
 .container{
     width:100%;
     margin-bottom: 60px
@@ -26,30 +26,28 @@
 }
 
 .thumb-left {
-height: auto;
-width: 48.75%;
-margin-bottom: 60px;
-float: left
+    height: auto;
+    width: 48.75%;
+    margin-bottom: 60px;
+    float: left;
 }
 
 .filter-wrap{
     display: flex;
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 70px;
 }
 
-
 .filter{
-margin-right: 15px;
-text-align: center;
-font-size: 14px;
-margin-top: 15px ;
-text-transform:uppercase;
-letter-spacing: 0.1em;
-line-height: 1.15em;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 15px ;
+    text-transform:uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.15em;
 }
-
 
 .thumb-right {
     width: 48.75%;
@@ -59,11 +57,8 @@ line-height: 1.15em;
 }
 
 .thumb{
-    width: 100%;
-    
+    width: 100%; 
 }
-
-
 
 .project-title{
     font-size: 14px;

@@ -4,11 +4,18 @@ import "./press.css";
 import test from "../assets/V_KR_SEO_1.jpg";
 import test2 from "../assets/V_KR_SEO_2.jpg";
 import test3 from "../assets/V_ST_MET_1.jpg";
+
 function Press() {
+
   return (
+
     <div className="index-wrap">
+
+      {/* header */}
       <div className="press-head">Selected Works Published in Press</div>
+
       <div>
+        
         <div class="title-wrap">
           <div className="year">2020</div>
           <a
@@ -21,7 +28,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test} className="press-img" />
+          <img src={test} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -36,7 +43,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test2} className="press-img" />
+          <img src={test2} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -47,7 +54,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test3} className="press-img" />
+          <img src={test3} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -58,7 +65,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test} className="press-img" />
+          <img src={test} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -69,7 +76,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test2} className="press-img" />
+          <img src={test2} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -81,7 +88,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test3} className="press-img" />
+          <img src={test3} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -96,7 +103,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test} className="press-img" />
+          <img src={test} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -109,7 +116,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test2} className="press-img" />
+          <img src={test2} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -122,7 +129,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test3} className="press-img" />
+          <img src={test3} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -135,7 +142,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test} className="press-img" />
+          <img src={test} className="press-img" alt="project-img" />
         </div>
 
         <div class="title-wrap">
@@ -148,7 +155,7 @@ function Press() {
               <img alt="linkout" src={arrow} class="linkout" />
             </div>
           </a>
-          <img src={test2} className="press-img" />
+          <img src={test2} className="press-img" alt="project-img" />
         </div>
       </div>
     </div>
