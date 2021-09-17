@@ -21,8 +21,9 @@ const ProjectsArray = [
     name: "WeWork - KDX",
     image: H1,
     location: "Tokyo, Japan",
-    filterTag: "3d",
-    path: "/wework-tokyo"
+    filterTag: "cc",
+    path: "/wework-tokyo",
+    className: "thumb-left"
   },
 
   {
@@ -30,8 +31,9 @@ const ProjectsArray = [
     name: "SHoP Architects",
     image: H2,
     location: "New York, NY",
-    filterTag: "3d",
-    path: "/shop-architects"
+    filterTag: "cc",
+    path: "/shop-architects",
+    className: "thumb-right"
   },
 
   {
@@ -39,8 +41,9 @@ const ProjectsArray = [
     name: "Tiffany and Co. - LVMH Group",
     image: H13,
     location: "New York, NY",
-    filterTag: "3d",
-    path: "/tco"
+    filterTag: "cc",
+    path: "/tco",
+    className: "thumb-left"
   },
 
   {
@@ -49,7 +52,8 @@ const ProjectsArray = [
     image: H4,
     location: "N/A",
     filterTag: "web",
-    path: "/waste-of-time" 
+    path: "/waste-of-time",
+    className: "thumb-right" 
   },
 
   {
@@ -58,7 +62,8 @@ const ProjectsArray = [
     image: H5,
     location: "WeWork x Lord & Taylor",
     filterTag: "ux",
-    path:"/wework-tokyo"
+    path:"/wework-tokyo",
+    className: "thumb-left"
   },
   
   {
@@ -67,47 +72,53 @@ const ProjectsArray = [
     image: H6,
     location: "N/A",
     filterTag: "ux",
-    path:"/lt"
+    path:"/lt",
+    className: "thumb-right"
   },
   {
     id: 7,
     name: "WeWork - Chicago",
     image: H7,
     location: "Chicago, IL",
-    filterTag: "vr",
-    path:"/vr-chicago"
+    filterTag: "cc",
+    path:"/vr-chicago",
+    className: "thumb-left"
   },
   {
     id: 8,
     name: "WeWork - Pacific Center",
     image: H8,
     location: "Los Angeles, CA",
-    filterTag: "vr",
-    path: "/vr-la" 
+    filterTag: "cc",
+    path: "/vr-la",
+    className: "thumb-right"
   },
   {
     id: 9,
     name: "WeWork - Jongro Tower",
     image: H9,
     location: "Seoul, Korea",
-    filterTag: "vr",
-    path: "/vr-seoul" 
+    filterTag: "cc",
+    path: "/vr-seoul",
+    className: "thumb-left"
   },
   {
     id: 10,
     name: "WeWork - DC",
     image: H10,
     location: "Washington DC",
-    filterTag: "vr",
-    path: "/vr-dc" 
+    filterTag: "cc",
+    path: "/vr-dc",
+    className: "thumb-right"
   },
   {
     id: 11,
     name: "WeWork - Calle 80 #53",
     image: H14,
     location: "Barranquilla, Columbia",
-    filterTag: "3d",
-    path: "/wework-colombia" 
+    filterTag: "cc",
+    path: "/wework-colombia",
+    className: "thumb-left" 
   },
   {
     id: 12,
@@ -115,7 +126,8 @@ const ProjectsArray = [
     image: H12,
     location: "N/A",
     filterTag: "web",
-    path: "/extra-credit" 
+    path: "/extra-credit",
+    className: "thumb-right"
   },
   {
     id: 13,
@@ -123,7 +135,8 @@ const ProjectsArray = [
     image: H12,
     location: "N/A",
     filterTag: "web",
-    path: "/extra-credit" 
+    path: "/extra-credit",
+    className: "thumb-left" 
   }
 ];
 

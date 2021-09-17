@@ -30,11 +30,11 @@ const Home = () => {
 
           <span class="accent-text">User Experience </span>
 
-          and strategy,
+          and strategy, interactive
 
-          <span class="accent-text"> Immersive 3D/VR </span>{" "}
+          <span class="accent-text">  Content Creation </span>{" "}
 
-          interactive content creation and {" "}
+          and {" "}
 
           <span class="accent-text">Web Development</span>.
 
@@ -45,8 +45,8 @@ const Home = () => {
 
           <button className="filter" onClick={() => setItems(ProjectArray)}> All</button>
           <button className="filter" onClick={() => filteredProjects("ux")}> USER EXPERIENCE</button>
-          <button className="filter" onClick={() => filteredProjects("3d")}>3D VISUALIZATION</button>
-          <button className="filter" onClick={() => filteredProjects("vr")}>VIRTUAL REALITY</button>
+          <button className="filter" onClick={() => filteredProjects("cc")}> CREATIVE CONTENT</button>
+          {/* <button className="filter" onClick={() => filteredProjects("vr")}>VIRTUAL REALITY</button> */}
           <button className="filter" onClick={() => filteredProjects("web")}>WEB DEVELOPMENT</button>
 
         </div>
@@ -54,24 +54,25 @@ const Home = () => {
         {/* map function and render filtered results */}
         {
           items.map((elements) => {
-            const { name, image, location, path } = elements;
+
+            // passed in project 
+            const { name, image, location, path, className } = elements;
+            
             return (
               <div>
 
                 <div className="container">
-                  <div className="thumb-left">
+
+                  {/* project module/card */}
+                  <div className={className}>
 
                     <Link to={path}>
                       <img alt="img" src={image} className="thumb" />
                     </Link>
 
                     <div className="project-title">{name}<br />{location}</div>
-                  </div>
 
-                  {/* <div className="thumb-right">
-                    <img alt="img" src={image} className="thumb" />
-                    <div className="project-title">{name}<br />{location}</div>
-                  </div> */}
+                  </div>
 
                 </div>
 
