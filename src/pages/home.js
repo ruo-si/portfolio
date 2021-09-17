@@ -26,17 +26,22 @@ const Home = () => {
 
         <div className="index-manifesto">
 
-          I am a product designer and full stack developer specializing in{" "}
+          Hello, I am a product designer and art director specializing in {" "}
 
-          <span class="accent-text">User Experience </span>
+          <span class="accent-text"> User Experience </span>
 
-          and strategy, interactive
+          design strategy, interactive
 
           <span class="accent-text">  Content Creation </span>{" "}
 
-          and {" "}
+          and building{" "}
 
-          <span class="accent-text">Web Development</span>.
+          <span class="accent-text">Web Development</span> prototypes. 
+
+          <br/>
+          <br/>
+
+          What can I do for you?
 
         </div>
 
@@ -44,10 +49,9 @@ const Home = () => {
         <div className="filter-wrap">
 
           <button className="filter" onClick={() => setItems(ProjectArray)}> All</button>
-          <button className="filter" onClick={() => filteredProjects("ux")}> USER EXPERIENCE</button>
+          <button className="filter" onClick={() => filteredProjects("ux")}> UX</button>
           <button className="filter" onClick={() => filteredProjects("cc")}> CREATIVE CONTENT</button>
-          {/* <button className="filter" onClick={() => filteredProjects("vr")}>VIRTUAL REALITY</button> */}
-          <button className="filter" onClick={() => filteredProjects("web")}>WEB DEVELOPMENT</button>
+          <button className="filter" onClick={() => filteredProjects("web")}> DEVELOPMENT</button>
 
         </div>
 

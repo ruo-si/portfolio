@@ -141,5 +141,5 @@ const ProjectsArray = [
 ];
 
 
-// function to filter array
+// git array
 export default ProjectsArray;

@@ -1,7 +1,7 @@
 .index-manifesto {
     height: 80vh;
     font-size: 50px;
-    padding-top: 25%;
+    padding-top: 20%;
     width: 80%;
     font-family: "Roboto";
     animation: fadeIn linear 600ms;
@@ -47,6 +47,14 @@
     text-transform:uppercase;
     letter-spacing: 0.1em;
     line-height: 1.15em;
+    /* background-color: blue; */
+    border-radius: 30px;
+    border:1px solid black;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 }
 
 .thumb-right {
@@ -67,3 +75,4 @@
     letter-spacing: 0.1em;
     line-height: 1.15em;
 }
+
