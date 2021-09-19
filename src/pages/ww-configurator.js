@@ -32,11 +32,14 @@ const configurator = () => {
         </div>
       </div>
       <div className="head-wrap">
-        <video autoPlay muted loop>
+
+        {/* <video autoPlay muted loop>
           <source src={headerVideo} type="video/mp4" />
-        </video>
+        </video> */}
+
         <img src={mv} alt="mockup" class="web-img" />
         <img src={compare} alt="mockup" class="web-img" />
+        
       </div>
       <div className="split-wrap">
         <div className="split-bg-left" style={{ backgroundColor: "#1D4144", color: "#ffffff" }}>
