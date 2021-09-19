@@ -43,6 +43,9 @@ const About = () => {
             and design in a collaborative multicultural work environment.
           </div>
 
+          <button className="linkout-button" > Linkedin </button>
+          <button className="linkout-button" > github </button>
+          <button className="linkout-button" > instagram </button>
         </div>
 
         {/* contact form */}

@@ -25,13 +25,17 @@ const ProjectWasteOfTime = () => {
           </div>
         </div>
       </div>
+
+
+      <button className="linkout-button" > Github </button>
+      <button className="linkout-button" > View Project </button>
       <div className="head-wrap">
         <video autoPlay muted loop>
           <source src={headerVideo} type="video/mp4" />
         </video>
       </div>
       <div className="split-wrap">
-        <div className="split-bg-left" style={{ backgroundColor: "#1D4144", color:"#ffffff" }}>
+        <div className="split-bg-left" style={{ backgroundColor: "#1D4144", color: "#ffffff" }}>
           <div className="split-text-left">
             The Brief
             <br />
