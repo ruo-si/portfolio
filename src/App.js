@@ -11,6 +11,7 @@ import Press from "./pages/press"
 
 // ux projects
 import LT from "./pages/pd-lt"
+import CONFIGURATOR from "./pages/ww-configurator"
 
 // rendering projects
 import WeWork_Tokyo from "./pages/pd-tokyo"
@@ -83,6 +84,7 @@ function App() {
 
         {/* UX & dev projects */}
         <Route exact path="/waste-of-time" component={DEV_WASTE_OF_TIME} />
+        <Route exact path="/configurator" component={CONFIGURATOR} />
 
         <Footer />
 

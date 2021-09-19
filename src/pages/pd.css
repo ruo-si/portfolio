@@ -96,6 +96,11 @@ video {
   height: auto;
 }
 
+.web-img{
+  width: 100%;
+  height: auto;
+}
+
 .split-bg-left {
   float: left;
   width: 50%;
@@ -173,4 +178,21 @@ width:100%
 .cross-wrap{
     margin-bottom: 120px;
     overflow: auto;
+}
+
+.linkout-button{
+  margin-right: 15px;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 15px ;
+  text-transform:uppercase;
+  letter-spacing: 0.1em;
+  line-height: 1.15em;
+  /* background-color: blue; */
+  border-radius: 30px;
+  border:1px solid black;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }

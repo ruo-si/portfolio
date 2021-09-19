@@ -48,10 +48,10 @@ const Home = () => {
         {/* filter buttons */}
         <div className="filter-wrap">
 
-          <button className="filter" onClick={() => setItems(ProjectArray)}> All</button>
-          <button className="filter" onClick={() => filteredProjects("ux")}> UX</button>
-          <button className="filter" onClick={() => filteredProjects("cc")}> CREATIVE CONTENT</button>
-          <button className="filter" onClick={() => filteredProjects("web")}> DEVELOPMENT</button>
+          <button className="filter" onClick={() => setItems(ProjectArray)}> All </button>
+          <button className="filter" onClick={() => filteredProjects("ux")}> UX </button>
+          <button className="filter" onClick={() => filteredProjects("cc")}> CREATIVE CONTENT </button>
+          <button className="filter" onClick={() => filteredProjects("web")}> DEVELOPMENT </button>
 
         </div>
 
