@@ -25,9 +25,9 @@ const Project_Colombia = () => {
             <div className="project-detail-wrap">
 
                 {/* title */}
-                <div className="project-name">WeWork 
-                <br/>
-                Barranquilla, Colombia
+                <div className="project-name">WeWork
+                    <br />
+                    Barranquilla, Colombia
                 </div>
 
                 {/* project info */}
@@ -49,6 +49,9 @@ const Project_Colombia = () => {
                 </div>
 
             </div>
+
+            <button className="linkout-button" > Visit Site </button>
+            <button className="linkout-button" > 3D Experience </button>
 
             {/* compare image */}
             <div className="head-wrap">
