@@ -9,7 +9,6 @@ import H8 from "../assets/H_8.jpg";
 import H9 from "../assets/H_9.jpg";
 import H10 from "../assets/H_10.jpg";
 import H12 from "../assets/H_12.jpg";
-import H13 from "../assets/H_13.jpg";
 import H14 from "../assets/H_14.jpg";
 
 
@@ -34,15 +33,6 @@ const ProjectsArray = [
     path: "/lt",
     className: "thumb-right"
   },
-  // {
-  //   id: 3,
-  //   name: "Tiffany and Co. - LVMH Group",
-  //   image: H13,
-  //   location: "New York, NY",
-  //   filterTag: "cc",
-  //   path: "/tco",
-  //   className: "thumb-left"
-  // },
   {
     id: 4,
     name: "Waste of Time",
@@ -61,15 +51,6 @@ const ProjectsArray = [
     path: "/configurator",
     className: "thumb-right"
   },
-  // {
-  //   id: 6,
-  //   name: "Lutron Electronics",
-  //   image: H6,
-  //   location: "N/A",
-  //   filterTag: "ux",
-  //   path: "/lt",
-  //   className: "thumb-right"
-  // },
   {
     id: 6,
     name: "WeWork - KDX",

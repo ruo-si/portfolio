@@ -121,7 +121,7 @@ const configurator = () => {
         </div>
         <div className="split-bg-right">
           <div className="split-text-right">
-            
+
             <div className="module-title">User Journey</div>
             <img src={placeHolder} className="icon" />
             <img src={placeHolder} className="icon" />
