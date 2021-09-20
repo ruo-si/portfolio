@@ -20,7 +20,7 @@ const ProjectsArray = [
     image: H2,
     location: "New York, NY",
     filterTag: "cc",
-    path: "/shop-architects",
+    path: "/shop",
     className: "thumb-left"
   },
 
@@ -57,7 +57,7 @@ const ProjectsArray = [
     image: H1,
     location: "Tokyo, Japan",
     filterTag: "cc",
-    path: "/wework-tokyo",
+    path: "/ww-tokyo",
     className: "thumb-left"
   },
   {
@@ -102,7 +102,7 @@ const ProjectsArray = [
     image: H14,
     location: "Barranquilla, Columbia",
     filterTag: "cc",
-    path: "/wework-colombia",
+    path: "/ww-colombia",
     className: "thumb-right"
   },
   {
