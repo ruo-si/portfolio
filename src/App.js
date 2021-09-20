@@ -14,10 +14,9 @@ import LT from "./pages/pd-lt"
 import CONFIGURATOR from "./pages/ww-configurator"
 
 // rendering projects
-import WeWork_Tokyo from "./pages/pd-tokyo"
+import WW_TOKYO from "./pages/pd-tokyo"
 import SHoP from "./pages/pd-shop"
-import WeWork_Colombia from "./pages/pd-colombia"
-
+import WW_COLUMBIA from "./pages/pd-colombia"
 
 // dev projects
 import DEV_WASTE_OF_TIME from "./pages/pd-WasteOfTime"
@@ -49,11 +48,17 @@ function App() {
         <Route exact path="/about" component={About} />
         <Route exact path="/press" component={Press} />
 
-        {/* 3d projects */}
-        <Route exact path="/wework-tokyo" component={WeWork_Tokyo} />
-        <Route exact path="/shop-architects" component={SHoP} />
-        <Route exact path="/wework-colombia" component={WeWork_Colombia} />
+        {/* ux projects */}
+        <Route exact path="/configurator" component={CONFIGURATOR} />
         <Route exact path="/lt" component={LT} />
+
+        {/* UX & dev projects */}
+        <Route exact path="/waste-of-time" component={DEV_WASTE_OF_TIME} />
+
+        {/* 3d projects */}
+        <Route exact path="/ww-tokyo" component={WW_TOKYO} />
+        <Route exact path="/shop" component={SHoP} />
+        <Route exact path="/ww-colombia" component={WW_COLUMBIA} />
 
         {/* vr projects */}
         <Route exact path="/vr-chicago" component={VR_CHICAGO} />
@@ -66,10 +71,6 @@ function App() {
         <Route exact path="/vr-dc-360" component={VR_DC_360} />
         <Route exact path="/vr-la-360" component={VR_LA_360} />
         <Route exact path="/vr-seoul-360" component={VR_SEOUL_360} />
- 
-        {/* UX & dev projects */}
-        <Route exact path="/waste-of-time" component={DEV_WASTE_OF_TIME} />
-        <Route exact path="/configurator" component={CONFIGURATOR} />
 
         <Footer />
 
