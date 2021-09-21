@@ -22,10 +22,10 @@ import WW_COLUMBIA from "./pages/pd-colombia"
 import DEV_WASTE_OF_TIME from "./pages/pd-WasteOfTime"
 
 // vr projects
-// import VR_CHICAGO from "./pages/vr-chicago"
-// import VR_DC from "./pages/vr-dc"
-// import VR_LA from "./pages/vr-la"
-// import VR_SEOUL from "./pages/vr-seoul"
+import VR_CHICAGO from "./pages/vr-chicago"
+import VR_DC from "./pages/vr-dc"
+import VR_LA from "./pages/vr-la"
+import VR_SEOUL from "./pages/vr-seoul"
 
 // vr 360
 // import VR_CHICAGO_360 from "./pages/vr-chicago-360"
@@ -61,10 +61,10 @@ function App() {
         <Route exact path="/ww-colombia" component={WW_COLUMBIA} />
 
         {/* vr projects */}
-        {/* <Route exact path="/vr-chicago" component={VR_CHICAGO} />
+        <Route exact path="/vr-chicago" component={VR_CHICAGO} />
         <Route exact path="/vr-dc" component={VR_DC} />
         <Route exact path="/vr-la" component={VR_LA} />
-        <Route exact path="/vr-seoul" component={VR_SEOUL} /> */}
+        <Route exact path="/vr-seoul" component={VR_SEOUL} />
 
         {/* vr 360 */}
         {/* <Route exact path="/vr-chicago-360" component={VR_CHICAGO_360} />
