@@ -12,8 +12,8 @@ import H2 from "../assets/SHOP_1.jpg";
 import H3 from "../assets/SHOP_3.jpg";
 
 // related projects
-import R1 from "../assets/H_3.jpg";
-import R2 from "../assets/H_5.jpg";
+import R1 from "../assets/thumb/H_3.jpg";
+import R2 from "../assets/thumb/H_5.jpg";
 
 
 const Project_SHoP= () => {

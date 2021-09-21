@@ -3,20 +3,28 @@ import "./pd.css";
 import headerVideo from "../assets/wot_v3.mp4";
 import material from "../assets/wot_materials@2x.jpg";
 import placeHolder from "../assets/wot_placeholder@2x.png";
+
 const ProjectWasteOfTime = () => {
+
   return (
     <div className="pd-container">
       <div className="project-detail-wrap">
+
+        {/* title */}
         <div className="project-name">Waste of Time</div>
         <div className="project-credit">
+
           <div>Role: Product Designer & UX Designer</div>
           <div>Methodologies: </div>
+
           <div>
             Competitive Analysis, User Interviews, Strategy, Ideation,
             Prototyping, Usability Testing, Visual Design
           </div>
+
           <div>Timeframe: 3 weeks</div>
         </div>
+
         <div className="project-detail">
           <div>
             Waste of Time is a product where one can learn about the waste
@@ -26,14 +34,17 @@ const ProjectWasteOfTime = () => {
         </div>
       </div>
 
-
+      {/* linkout buttons */}
       <button className="linkout-button" > Github </button>
       <button className="linkout-button" > View Project </button>
+
+      {/* video */}
       <div className="head-wrap">
         <video autoPlay muted loop>
           <source src={headerVideo} type="video/mp4" />
         </video>
       </div>
+
       <div className="split-wrap">
         <div className="split-bg-left" style={{ backgroundColor: "#1D4144", color: "#ffffff" }}>
           <div className="split-text-left">
@@ -51,18 +62,18 @@ const ProjectWasteOfTime = () => {
             <br />
             <br />
             <div className="icon-set">
-              <img src={placeHolder} className="icon" />
+              <img src={placeHolder} className="icon" alt="icon" />
               <div className="icon-text">
                 The waste system is an often overlooked aspect when we think
                 about the environment
               </div>
             </div>
             <div className="icon-set">
-              <img src={placeHolder} className="icon" />
+              <img src={placeHolder} className="icon" alt="icon" />
               <div>The lack of knowledge of properly recycling</div>
             </div>
             <div className="icon-set">
-              <img src={placeHolder} className="icon" />
+              <img src={placeHolder} className="icon" alt="icon" />
               <div>localized differences in recycling categories</div>
             </div>
           </div>
@@ -70,31 +81,40 @@ const ProjectWasteOfTime = () => {
       </div>
 
       <div className="split-wrap">
+
+        {/* title */}
         <div className="cross-title">User Testing</div>
-        <div
-          className="split-bg-left"
-          style={{ borderRight: "1px solid #eaeaea" }}
-        >
+
+        <div className="split-bg-left" style={{ borderRight: "1px solid #eaeaea" }}>
           <div className="split-text-left">
+
+            {/* title */}
             <div className="module-title">User Testing</div>
+
             All of the users found the product to have be a great addition to
             their daily routine and look forward to it being responsive to
             multiple countries and areas in the world.
+
           </div>
         </div>
 
         <div className="split-bg-right">
           <div className="split-text-right">
+
+            {/* title */}
             <div className="module-title">User Testing</div>
+
             <div>
               users responded positivle to the clean, intuitive user flow and
               quickly adapted to the game rules and excited to re-challenge
               themselves to improve previous scores.
             </div>
+
           </div>
         </div>
       </div>
 
+      {/* hero quote */}
       <div className="quote">
         “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad”
@@ -102,27 +122,33 @@ const ProjectWasteOfTime = () => {
 
       <div>
         <div className="cross-title">The Brand</div>
-        <img src={material} className="head-wrap" />
+        <img src={material} className="head-wrap" alt="imageRef" />
       </div>
 
       <div className="split-wrap">
         <div className="split-bg-left">
           <div className="split-text-left">
+
             <div className="module-title">The Solution</div>
             Waste of Time streamlines multiple learning methods from simulating
             users with the gamification feature to keeping track of the learning
             process with the personalized dashboard.
           </div>
+
         </div>
 
         <div className="split-bg-right">
           <div className="split-text-right">
+
+            {/* title */}
             <div className="module-title">User Journey</div>
-            <img src={placeHolder} className="icon" />
-            <img src={placeHolder} className="icon" />
-            <img src={placeHolder} className="icon" />
-            <img src={placeHolder} className="icon" />
-            <img src={placeHolder} className="icon" />
+
+            {/* list icons */}
+            <img src={placeHolder} className="icon" alt="icon" />
+            <img src={placeHolder} className="icon" alt="icon" />
+            <img src={placeHolder} className="icon" alt="icon" />
+            <img src={placeHolder} className="icon" alt="icon" />
+            <img src={placeHolder} className="icon" alt="icon" />
           </div>
         </div>
       </div>
@@ -133,30 +159,41 @@ const ProjectWasteOfTime = () => {
           style={{ borderRight: "1px solid #eaeaea" }}
         >
           <div className="split-text-left">
+
+            {/* title */}
             <div className="module-title">Future Exploration</div>
+
             based on responses we have collected from user interviews, concept
             exploration and usability testings. We have a few things we would
             like to push the product futher as furutre development.
+
           </div>
         </div>
 
         <div className="split-bg-right">
           <div className="split-text-right">
             <div className="icon-set">
-              <img src={placeHolder} className="icon" />
+
+              {/* image */}
+              <img src={placeHolder} className="icon" alt="icon" />
+
               <div className="icon-text">
                 The waste system is an often overlooked aspect when we think
                 about the environment
               </div>
+
             </div>
+
             <div className="icon-set">
-              <img src={placeHolder} className="icon" />
+              <img src={placeHolder} className="icon" alt="icon" />
               <div>The lack of knowledge of properly recycling</div>
             </div>
+
             <div className="icon-set">
-              <img src={placeHolder} className="icon" />
+              <img src={placeHolder} className="icon" alt="icon" />
               <div>localized differences in recycling categories</div>
             </div>
+
           </div>
         </div>
       </div>

@@ -12,8 +12,8 @@ import H2 from "../assets/JPN_TOK_2.jpg";
 import H3 from "../assets/material_collage.jpg";
 
 // related projects
-import R1 from "../assets/H_1.jpg";
-import R2 from "../assets/H_2.jpg";
+import R1 from "../assets/thumb/H_1.jpg";
+import R2 from "../assets/thumb/H_2.jpg";
 
 
 const Project_Tokyo = () => {

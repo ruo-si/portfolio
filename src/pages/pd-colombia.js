@@ -12,8 +12,8 @@ import H2 from "../assets/BAR_CAL_1.jpg";
 import H3 from "../assets/BAR_CAL_2.jpg";
 
 // related projects
-import R1 from "../assets/H_1.jpg";
-import R2 from "../assets/H_1.jpg";
+import R1 from "../assets/thumb/H_1.jpg";
+import R2 from "../assets/thumb/H_1.jpg";
 
 
 const Project_Colombia = () => {
