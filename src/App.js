@@ -11,7 +11,8 @@ import Press from "./pages/press"
 
 // ux projects
 import LT from "./pages/pd-lt"
-import CONFIGURATOR from "./pages/ww-configurator"
+import CONFIGURATOR from "./pages/pd-configurator"
+import DESIGN_STANDARDS from "./pages/ww-ds"
 
 // rendering projects
 import WW_TOKYO from "./pages/pd-tokyo"
@@ -19,7 +20,10 @@ import SHoP from "./pages/pd-shop"
 import WW_COLUMBIA from "./pages/pd-colombia"
 
 // dev projects
-import DEV_WASTE_OF_TIME from "./pages/pd-WasteOfTime"
+import DEV_WASTE_OF_TIME from "./pages/pd-wot"
+import DEV_EXTRA_CREDIT from "./pages/pd-ec"
+import DEV_PASSWORD_GENERATOR from "./pages/pd-pg"
+import DEV_DESTINATION_DASHBOARD from "./pages/pd-dd"
 
 // vr projects
 import VR_CHICAGO from "./pages/vr-chicago"
@@ -51,9 +55,13 @@ function App() {
         {/* ux projects */}
         <Route exact path="/configurator" component={CONFIGURATOR} />
         <Route exact path="/lt" component={LT} />
+        <Route exact path="/design-standards" component={DESIGN_STANDARDS} />
 
         {/* UX & dev projects */}
         <Route exact path="/waste-of-time" component={DEV_WASTE_OF_TIME} />
+        <Route exact path="/extra-credit" component={DEV_EXTRA_CREDIT} />
+        <Route exact path="/password-generator" component={DEV_PASSWORD_GENERATOR} />
+        <Route exact path="/destination-dashboard" component={DEV_DESTINATION_DASHBOARD} />
 
         {/* 3d projects */}
         <Route exact path="/ww-tokyo" component={WW_TOKYO} />
@@ -67,10 +75,10 @@ function App() {
         <Route exact path="/vr-seoul" component={VR_SEOUL} />
 
         {/* vr 360 */}
-        {/* <Route exact path="/vr-chicago-360" component={VR_CHICAGO_360} />
-        <Route exact path="/vr-dc-360" component={VR_DC_360} />
-        <Route exact path="/vr-la-360" component={VR_LA_360} />
-        <Route exact path="/vr-seoul-360" component={VR_SEOUL_360} /> */}
+        {/* <Route exact path="/vr-chicago-360" component={VR_CHICAGO_360} /> */}
+        {/* <Route exact path="/vr-dc-360" component={VR_DC_360} /> */}
+        {/* <Route exact path="/vr-la-360" component={VR_LA_360} /> */}
+        {/* <Route exact path="/vr-seoul-360" component={VR_SEOUL_360} /> */}
 
         <Footer />
 

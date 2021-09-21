@@ -1,15 +1,15 @@
 // thumb images
-import H1 from "../assets/H_1.jpg";
-import H2 from "../assets/H_2.jpg";
-import H4 from "../assets/H_4.jpg";
-import H5 from "../assets/H_7.jpg";
-import H6 from "../assets/H_6.jpg";
-import H7 from "../assets/H_5.jpg";
-import H8 from "../assets/H_8.jpg";
-import H9 from "../assets/H_9.jpg";
-import H10 from "../assets/H_10.jpg";
-import H12 from "../assets/H_12.jpg";
-import H14 from "../assets/H_14.jpg";
+import H1 from "../assets/thumb/H_1.jpg";
+import H2 from "../assets/thumb/H_2.jpg";
+import H4 from "../assets/thumb/H_4.jpg";
+import H5 from "../assets/thumb/H_7.jpg";
+import H6 from "../assets/thumb/H_6.jpg";
+import H7 from "../assets/thumb/H_5.jpg";
+import H8 from "../assets/thumb/H_8.jpg";
+import H9 from "../assets/thumb/H_9.jpg";
+import H10 from "../assets/thumb/H_10.jpg";
+import H12 from "../assets/thumb/H_12.jpg";
+import H14 from "../assets/thumb/H_14.jpg";
 
 
 const ProjectsArray = [
@@ -34,7 +34,7 @@ const ProjectsArray = [
     className: "thumb-right"
   },
   {
-    id: 4,
+    id: 3,
     name: "Waste of Time",
     image: H4,
     location: "N/A",
@@ -43,8 +43,8 @@ const ProjectsArray = [
     className: "thumb-left"
   },
   {
-    id: 5,
-    name: "Enterprise Configurator",
+    id: 4,
+    name: "Project Configurator",
     image: H5,
     location: "WeWork",
     filterTag: "ux",
@@ -52,7 +52,7 @@ const ProjectsArray = [
     className: "thumb-right"
   },
   {
-    id: 6,
+    id: 5,
     name: "WeWork - KDX",
     image: H1,
     location: "Tokyo, Japan",
@@ -61,7 +61,7 @@ const ProjectsArray = [
     className: "thumb-left"
   },
   {
-    id: 7,
+    id: 6,
     name: "WeWork - Chicago",
     image: H7,
     location: "Chicago, IL",
@@ -70,7 +70,7 @@ const ProjectsArray = [
     className: "thumb-right"
   },
   {
-    id: 8,
+    id: 7,
     name: "WeWork - Pacific Center",
     image: H8,
     location: "Los Angeles, CA",
@@ -79,7 +79,7 @@ const ProjectsArray = [
     className: "thumb-left"
   },
   {
-    id: 9,
+    id: 8,
     name: "WeWork - Jongro Tower",
     image: H9,
     location: "Seoul, Korea",
@@ -88,7 +88,7 @@ const ProjectsArray = [
     className: "thumb-right"
   },
   {
-    id: 10,
+    id: 9,
     name: "WeWork - DC",
     image: H10,
     location: "Washington DC",
@@ -97,7 +97,7 @@ const ProjectsArray = [
     className: "thumb-left"
   },
   {
-    id: 11,
+    id: 10,
     name: "WeWork - Calle 80 #53",
     image: H14,
     location: "Barranquilla, Columbia",
@@ -106,7 +106,7 @@ const ProjectsArray = [
     className: "thumb-right"
   },
   {
-    id: 12,
+    id: 11,
     name: "Extra Credit",
     image: H12,
     location: "N/A",
@@ -115,8 +115,8 @@ const ProjectsArray = [
     className: "thumb-left"
   },
   {
-    id: 13,
-    name: "Brag-a-burger",
+    id: 12,
+    name: "Password Generator",
     image: H12,
     location: "N/A",
     filterTag: "web",
