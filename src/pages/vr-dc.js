@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./vr.css";
-import HeaderImage from "../assets/360_DC_777_LNG.jpg";
+import HeaderImage from "../assets/360/360_DC_777_LNG.jpg";
 import globe from "../assets/globe.svg";
 
 const VR_DC = () => {

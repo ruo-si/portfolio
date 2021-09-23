@@ -28,15 +28,15 @@ const Home = () => {
 
                     Hello, I am a product designer and art director specializing in {" "}
 
-                    <span class="accent-text"> User Experience </span>
+                    <span class="accent-text"> UX</span>{" "}
 
-                    design strategy, interactive
+                    design strategy, developing interactive{" "}
 
-                    <span class="accent-text">  Content Creation </span>{" "}
+                    <span class="accent-text">Creative Content</span>{" "}
 
                     and building{" "}
 
-                    <span class="accent-text">Web Development</span> prototypes.
+                    <span class="accent-text">Digital Prototypes</span>.
 
                     <br />
                     <br />

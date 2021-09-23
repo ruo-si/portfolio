@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./vr.css";
-import HeaderImage from "../assets/360_CHI_WAB_LNG.jpg";
+import HeaderImage from "../assets/360/360_CHI_WAB_LNG.jpg";
 import globe from "../assets/globe.svg";
 
 const VR_CHICAGO = () => {
