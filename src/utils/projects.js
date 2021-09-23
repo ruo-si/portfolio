@@ -4,12 +4,14 @@ import H2 from "../assets/thumb/H_2.jpg";
 import H4 from "../assets/thumb/H_4.jpg";
 import H5 from "../assets/thumb/H_7.jpg";
 import H6 from "../assets/thumb/H_6.jpg";
-import H7 from "../assets/thumb/H_5.jpg";
+// import H7 from "../assets/thumb/H_5.jpg";
 import H8 from "../assets/thumb/H_8.jpg";
 import H9 from "../assets/thumb/H_9.jpg";
 import H10 from "../assets/thumb/H_10.jpg";
 import H12 from "../assets/thumb/H_12.jpg";
 import H14 from "../assets/thumb/H_14.jpg";
+import H13 from "../assets/thumb/H_13.png";
+
 
 
 const ProjectsArray = [
@@ -63,7 +65,7 @@ const ProjectsArray = [
   {
     id: 6,
     name: "WeWork - Chicago",
-    image: H7,
+    image: H13,
     location: "Chicago, IL",
     filterTag: "cc",
     path: "/vr-chicago",
