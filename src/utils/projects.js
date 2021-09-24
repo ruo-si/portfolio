@@ -1,11 +1,10 @@
 // thumb images
-import H1 from "../assets/thumb/H_1.jpg";
+import LA from "../assets/thumb/H_1.jpg";
 import STANDARDS from "../assets/thumb/standards.png";
 import WASTE_OF_TIME from "../assets/thumb/wot.png";
 import CONFIGURATOR from "../assets/thumb/pxwe.png";
 import LUTRON from "../assets/thumb/lutron.png";
-// import H7 from "../assets/thumb/H_5.jpg";
-import H8 from "../assets/thumb/H_8.jpg";
+import TOKYO from "../assets/thumb/H_8.jpg";
 import KETRA from "../assets/thumb/ketra.png";
 import WEWORK from "../assets/thumb/wework.png";
 import TIFFANY from "../assets/thumb/tiffany.png";
@@ -15,11 +14,8 @@ import PASSWORD_GENERATOR from "../assets/thumb/password.png";
 import EXTRA_CREDIT from "../assets/thumb/extracredit.png";
 import DESTINATION_DASHBOARD from "../assets/thumb/dd.png";
 
-
-
-
+// all projects
 const ProjectsArray = [
-
   {
     id: 1,
     name: "visual marketing",
@@ -29,10 +25,9 @@ const ProjectsArray = [
     path: "/extra-credit",
     className: "thumb-left"
   },
-
   {
     id: 2,
-    name: "casaeta",
+    name: "caseta",
     image: LUTRON,
     location: "Lutron Electronics",
     filterTag: "ux",
@@ -78,7 +73,7 @@ const ProjectsArray = [
   {
     id: 7,
     name: "LA - Pacific Center",
-    image: H8,
+    image: LA,
     location: "WeWork",
     filterTag: "cc",
     path: "/vr-la",
@@ -105,7 +100,7 @@ const ProjectsArray = [
   {
     id: 10,
     name: "TOKYO - KDX",
-    image: H1,
+    image: TOKYO,
     location: "WeWork",
     filterTag: "cc",
     path: "/ww-tokyo",
