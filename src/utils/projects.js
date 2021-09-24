@@ -22,7 +22,7 @@ const ProjectsArray = [
     image: TIFFANY,
     location: "tiffany & co.",
     filterTag: "cc",
-    path: "/extra-credit",
+    path: "/tiffany",
     className: "thumb-left"
   },
   {
@@ -49,7 +49,7 @@ const ProjectsArray = [
     image: SANTAFE,
     location: "shop x site",
     filterTag: "cc",
-    path: "/ww-colombia",
+    path: "/santafe",
     className: "thumb-right"
   },
   {
@@ -58,7 +58,7 @@ const ProjectsArray = [
     image: STANDARDS,
     location: "WeWork",
     filterTag: "ux",
-    path: "/shop",
+    path: "/design-standards",
     className: "thumb-left"
   },
   {
@@ -67,7 +67,7 @@ const ProjectsArray = [
     image: INTREPID,
     location: "Intrepid x shop",
     filterTag: "cc",
-    path: "/vr-chicago",
+    path: "/intrepid",
     className: "thumb-right"
   },
   {
@@ -85,7 +85,7 @@ const ProjectsArray = [
     image: KETRA,
     location: "Lutron x Ketra",
     filterTag: "ux",
-    path: "/vr-seoul",
+    path: "/ketra",
     className: "thumb-right"
   },
   {
@@ -117,8 +117,8 @@ const ProjectsArray = [
   },
   {
     id: 12,
-    name: "password generator",
-    image: PASSWORD_GENERATOR,
+    name: "extra credit",
+    image: EXTRA_CREDIT,
     location: " ",
     filterTag: "web",
     path: "/extra-credit",
@@ -126,20 +126,20 @@ const ProjectsArray = [
   },
   {
     id: 13,
-    name: "extra credit",
-    image: EXTRA_CREDIT,
-    location: " ",
-    filterTag: "web",
-    path: "/extra-credit",
-    className: "thumb-left"
-  },
-  {
-    id: 14,
     name: "destination dashboard",
     image: DESTINATION_DASHBOARD,
     location: " ",
     filterTag: "web",
-    path: "/extra-credit",
+    path: "/destination-dashboard",
+    className: "thumb-left"
+  },
+  {
+    id: 14,
+    name: "password generator",
+    image: PASSWORD_GENERATOR,
+    location: " ",
+    filterTag: "web",
+    path: "/password-generator",
     className: "thumb-right"
   }
 ];

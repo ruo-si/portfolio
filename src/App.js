@@ -12,18 +12,21 @@ import Press from "./pages/press"
 // ux projects
 import LT from "./pages/pd-lt"
 import CONFIGURATOR from "./pages/pd-configurator"
-import DESIGN_STANDARDS from "./pages/ww-ds"
-
-// rendering projects
-import WW_TOKYO from "./pages/pd-tokyo"
-import SHoP from "./pages/pd-shop"
-import WW_COLUMBIA from "./pages/pd-colombia"
+import DESIGN_STANDARDS from "./pages/pd-ds"
+import KETRA from "./pages/pd-ketra.js"
 
 // dev projects
-import DEV_WASTE_OF_TIME from "./pages/pd-wot"
-import DEV_EXTRA_CREDIT from "./pages/pd-ec"
-import DEV_PASSWORD_GENERATOR from "./pages/pd-pg"
-import DEV_DESTINATION_DASHBOARD from "./pages/pd-dd"
+import DEV_WASTE_OF_TIME from "./pages/dev-wot"
+import DEV_EXTRA_CREDIT from "./pages/dev-ec"
+import DEV_PASSWORD_GENERATOR from "./pages/dev-pg"
+import DEV_DESTINATION_DASHBOARD from "./pages/dev-dd"
+
+// creative content
+import WW_TOKYO from "./pages/pd-tokyo"
+import WW_COLUMBIA from "./pages/pd-colombia"
+import TIFFANY from "./pages/pd-tiffany"
+import INTREPID from "./pages/pd-intrepid"
+import SANTAFE from "./pages/pd-santafe"
 
 // vr projects
 import VR_CHICAGO from "./pages/vr-chicago"
@@ -56,17 +59,20 @@ function App() {
         <Route exact path="/configurator" component={CONFIGURATOR} />
         <Route exact path="/lt" component={LT} />
         <Route exact path="/design-standards" component={DESIGN_STANDARDS} />
+        <Route exact path="/ketra" component={KETRA} />
 
-        {/* UX & dev projects */}
+        {/* dev projects */}
         <Route exact path="/waste-of-time" component={DEV_WASTE_OF_TIME} />
         <Route exact path="/extra-credit" component={DEV_EXTRA_CREDIT} />
         <Route exact path="/password-generator" component={DEV_PASSWORD_GENERATOR} />
         <Route exact path="/destination-dashboard" component={DEV_DESTINATION_DASHBOARD} />
 
-        {/* 3d projects */}
+        {/* creative content */}
         <Route exact path="/ww-tokyo" component={WW_TOKYO} />
-        <Route exact path="/shop" component={SHoP} />
         <Route exact path="/ww-colombia" component={WW_COLUMBIA} />
+        <Route exact path="/intrepid" component={INTREPID} />
+        <Route exact path="/tiffany" component={TIFFANY} />
+        <Route exact path="/santafe" component={SANTAFE} />
 
         {/* vr projects */}
         <Route exact path="/vr-chicago" component={VR_CHICAGO} />
