@@ -14,8 +14,8 @@ import H2 from "../assets/LT_V_PLACEHOLDER.jpg";
 import H3 from "../assets/LT_Evening.jpg";
 
 // related projects
-import R1 from "../assets/thumb/H_1.jpg";
-import R2 from "../assets/thumb/H_2.jpg";
+import R1 from "../assets/thumb/placeholder.png";
+import R2 from "../assets/thumb/placeholder.png";
 
 // icons
 import dusk_icon from "../assets/icons/icon-15.svg"

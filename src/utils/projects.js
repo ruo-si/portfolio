@@ -1,10 +1,10 @@
 // thumb images
-import LA from "../assets/thumb/H_1.jpg";
+import LA from "../assets/thumb/H_8.jpg";
 import STANDARDS from "../assets/thumb/standards.png";
 import WASTE_OF_TIME from "../assets/thumb/wot.png";
 import CONFIGURATOR from "../assets/thumb/pxwe.png";
 import LUTRON from "../assets/thumb/lutron.png";
-import TOKYO from "../assets/thumb/H_8.jpg";
+import TOKYO from "../assets/thumb/H_1.jpg";
 import KETRA from "../assets/thumb/ketra.png";
 import WEWORK from "../assets/thumb/wework.png";
 import TIFFANY from "../assets/thumb/tiffany.png";
