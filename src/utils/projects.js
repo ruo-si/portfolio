@@ -18,7 +18,7 @@ import DESTINATION_DASHBOARD from "../assets/thumb/dd.png";
 const ProjectsArray = [
   {
     id: 1,
-    name: "visual marketing",
+    name: "creative visual marketing",
     image: TIFFANY,
     location: "tiffany & co.",
     filterTag: "cc",
@@ -29,14 +29,14 @@ const ProjectsArray = [
     id: 2,
     name: "caseta",
     image: LUTRON,
-    location: "Lutron",
+    location: "Lutron Electronics",
     filterTag: "ux",
     path: "/lt",
     className: "thumb-right"
   },
   {
     id: 3,
-    name: "Configurator",
+    name: "Project Configurator",
     image: CONFIGURATOR,
     location: "WeWork",
     filterTag: "ux",
@@ -45,7 +45,7 @@ const ProjectsArray = [
   },
   {
     id: 4,
-    name: "workshop exhibition",
+    name: "Workshop Exhibition",
     image: SANTAFE,
     location: "shop x site",
     filterTag: "cc",
