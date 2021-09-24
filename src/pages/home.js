@@ -73,7 +73,11 @@ const Home = () => {
                                             <img alt="img" src={image} className="thumb" />
                                         </Link>
 
-                                        <div className="project-title">{name}<br />{location}</div>
+                                        <div className="project-title">
+                                            {name}
+                                            <br />
+                                            {location}
+                                            </div>
 
                                     </div>
 

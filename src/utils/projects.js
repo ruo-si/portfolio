@@ -11,6 +11,10 @@ import H10 from "../assets/thumb/weworrk.png";
 import H12 from "../assets/thumb/tifffany.png";
 import H14 from "../assets/thumb/santafe.png";
 import H13 from "../assets/thumb/intrepid.png";
+import pg from "../assets/thumb/password.png";
+import ec from "../assets/thumb/extracredit.png";
+import dd from "../assets/thumb/dd.png";
+
 
 
 
@@ -119,7 +123,25 @@ const ProjectsArray = [
   {
     id: 12,
     name: "Password Generator",
-    image: H12,
+    image: pg,
+    location: "N/A",
+    filterTag: "web",
+    path: "/extra-credit",
+    className: "thumb-right"
+  },
+  {
+    id: 13,
+    name: "Password Generator",
+    image: ec,
+    location: "N/A",
+    filterTag: "web",
+    path: "/extra-credit",
+    className: "thumb-left"
+  },
+  {
+    id: 14,
+    name: "Password Generator",
+    image: dd,
     location: "N/A",
     filterTag: "web",
     path: "/extra-credit",
