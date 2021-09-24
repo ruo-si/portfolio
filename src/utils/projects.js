@@ -7,10 +7,10 @@ import H6 from "../assets/thumb/H_6.jpg";
 // import H7 from "../assets/thumb/H_5.jpg";
 import H8 from "../assets/thumb/H_8.jpg";
 import H9 from "../assets/thumb/H_9.jpg";
-import H10 from "../assets/thumb/H_10.jpg";
-import H12 from "../assets/thumb/H_12.jpg";
-import H14 from "../assets/thumb/H_14.jpg";
-import H13 from "../assets/thumb/H_13.png";
+import H10 from "../assets/thumb/weworrk.png";
+import H12 from "../assets/thumb/H_13.png";
+import H14 from "../assets/thumb/santafe.png";
+import H13 from "../assets/thumb/intrepid.png";
 
 
 
