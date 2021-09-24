@@ -1,14 +1,14 @@
 // thumb images
 import H1 from "../assets/thumb/H_1.jpg";
-import H2 from "../assets/thumb/H_2.jpg";
-import H4 from "../assets/thumb/H_4.jpg";
-import H5 from "../assets/thumb/H_7.jpg";
-import H6 from "../assets/thumb/H_6.jpg";
+import H2 from "../assets/thumb/standards.png";
+import H4 from "../assets/thumb/wot.png";
+import H5 from "../assets/thumb/pxwe.png";
+import H6 from "../assets/thumb/lutron.png";
 // import H7 from "../assets/thumb/H_5.jpg";
 import H8 from "../assets/thumb/H_8.jpg";
-import H9 from "../assets/thumb/H_9.jpg";
+import H9 from "../assets/thumb/ketra.png";
 import H10 from "../assets/thumb/weworrk.png";
-import H12 from "../assets/thumb/H_13.png";
+import H12 from "../assets/thumb/tifffany.png";
 import H14 from "../assets/thumb/santafe.png";
 import H13 from "../assets/thumb/intrepid.png";
 
