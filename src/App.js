@@ -57,8 +57,8 @@ function App() {
 
         {/* ux projects */}
         <Route exact path="/configurator" component={CONFIGURATOR} />
-        <Route exact path="/lt" component={LT} />
         <Route exact path="/design-standards" component={DESIGN_STANDARDS} />
+        <Route exact path="/intrepid" component={INTREPID} />
         <Route exact path="/ketra" component={KETRA} />
 
         {/* dev projects */}
@@ -70,7 +70,7 @@ function App() {
         {/* creative content */}
         <Route exact path="/ww-tokyo" component={WW_TOKYO} />
         <Route exact path="/ww-colombia" component={WW_COLUMBIA} />
-        <Route exact path="/intrepid" component={INTREPID} />
+        <Route exact path="/lt" component={LT} />
         <Route exact path="/tiffany" component={TIFFANY} />
         <Route exact path="/santafe" component={SANTAFE} />
 

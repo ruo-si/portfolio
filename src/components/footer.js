@@ -6,6 +6,7 @@ import scroll from "../assets/scroll.svg";
 
 const Footer = () => {
   // const [show, setShow] = useState(true)
+  
   // const controlNavbar = () => {
   //   if (window.scrollY > 100) {
   //     setShow(false)
