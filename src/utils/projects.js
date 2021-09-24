@@ -29,7 +29,7 @@ const ProjectsArray = [
     id: 2,
     name: "caseta",
     image: LUTRON,
-    location: "Lutron Electronics",
+    location: "Lutron",
     filterTag: "ux",
     path: "/lt",
     className: "thumb-right"
@@ -47,7 +47,7 @@ const ProjectsArray = [
     id: 4,
     name: "workshop exhibition",
     image: SANTAFE,
-    location: "shop x site santa fe",
+    location: "shop x site",
     filterTag: "cc",
     path: "/ww-colombia",
     className: "thumb-right"
