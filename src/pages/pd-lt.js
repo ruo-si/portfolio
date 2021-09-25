@@ -3,7 +3,11 @@ import "./pd.css";
 // import ReactCompareImage from "react-compare-image";
 
 // hero imagery
-import LT_Dusk from "../assets/LT_Dusk.jpg";
+import LT_Dusk from "../assets/mockup.png";
+import LT_Dusk2 from "../assets/mockup2.png";
+import LT_Dusk3 from "../assets/mockup3.png";
+
+
 import LT_Morning from "../assets/LT_Morning.jpg";
 import LT_Evening from "../assets/LT_Evening.jpg";
 import LT_Midnight from "../assets/LT_Midnight.jpg";
@@ -66,7 +70,7 @@ const Project_LT = () => {
       <div className="project-detail-wrap">
 
         {/* title */}
-        <div className="project-name">Lutron</div>
+        <div className="project-name"> Lutron</div>
 
         {/* project info */}
         <div className="project-credit">
@@ -89,12 +93,15 @@ const Project_LT = () => {
       {/* site animation */}
       <div className="head-wrap">
 
-        <video autoPlay muted loop>
+        {/* <video autoPlay muted loop>
           <source src={siteVideo} type="video/mp4" />
-        </video>
+        </video> */}
 
 
-        {/* <img src={LT_Dusk} alt="img" className="img" width="100%" /> */}
+        <img src={LT_Dusk} alt="img" className="img-window" width="100%"/>
+        <img src={LT_Dusk2} alt="img" className="img-window" width="100%"/>
+        <img src={LT_Dusk3} alt="img" className="img-window" width="100%"/>
+
 
         {/* caption */}
         {/* <div className="caption">Light Temperature Spatial Experience</div> */}
