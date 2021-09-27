@@ -65,7 +65,7 @@ const ProjectsArray = [
     id: 6,
     name: "caseta",
     image: LUTRON,
-    location: "Lutron Electronics",
+    location: "Lutron",
     filterTag: "cc",
     path: "/lt",
     className: "thumb-right"
