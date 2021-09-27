@@ -26,7 +26,7 @@ const Home = () => {
 
                 <div className="index-manifesto">
 
-                    Hello, I am a product designer and art director specializing in {" "}
+                    Hi, I am a product designer and art director specializing in {" "}
 
                     <span class="accent-text"> UX</span>{" "}
 
