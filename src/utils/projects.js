@@ -45,7 +45,7 @@ const ProjectsArray = [
   },
   {
     id: 4,
-    name: "Workshop Exhibition",
+    name: "Workshop Exhibit",
     image: SANTAFE,
     location: "shop x site",
     filterTag: "cc",
