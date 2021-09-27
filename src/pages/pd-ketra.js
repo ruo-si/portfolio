@@ -16,7 +16,7 @@ import R1 from "../assets/thumb/placeholder.png";
 import R2 from "../assets/thumb/placeholder.png";
 
 // video
-import siteVideo from "../assets/ae/window_10.mp4"
+import siteVideo from "../assets/ae/ketra.mp4"
 
 const Project_Ketra = () => {
 
@@ -27,7 +27,7 @@ const Project_Ketra = () => {
       <div className="project-detail-wrap">
 
         {/* title */}
-        <div className="project-name"> Light</div>
+        <div className="project-name"> Personalized Light</div>
 
         {/* project info */}
         <div className="project-credit">
@@ -52,39 +52,19 @@ const Project_Ketra = () => {
       {/* site animation */}
       <div className="head-wrap">
 
-        {/* <video autoPlay muted loop>
+        <video autoPlay muted loop>
           <source src={siteVideo} type="video/mp4" />
-        </video> */}
+        </video>
 
 
-        <img src={LT_Dusk} alt="img" className="img-window" width="100%"/>
+        {/* <img src={LT_Dusk} alt="img" className="img-window" width="100%"/>
         <img src={LT_Dusk2} alt="img" className="img-window" width="100%"/>
         <img src={LT_Dusk3} alt="img" className="img-window" width="100%"/>
-
+ */}
 
         {/* caption */}
         {/* <div className="caption">Light Temperature Spatial Experience</div> */}
 
-      </div>
-
-      <div className="text-img-wrap">
-
-        <img alt="img" src={H1} className="image-wrap-left" />
-
-        <div className="text-wrap-right">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam
-        </div>
-      </div>
-
-      <div className="text-img-wrap">
-        <div className="text-wrap-left">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam
-        </div>
-        <img alt="img" src={H2} className="image-wrap-right" />
       </div>
 
       <div className="cross-wrap">

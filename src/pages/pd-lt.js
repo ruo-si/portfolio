@@ -93,15 +93,9 @@ const Project_LT = () => {
       {/* site animation */}
       <div className="head-wrap">
 
-        {/* <video autoPlay muted loop>
+        <video autoPlay muted loop>
           <source src={siteVideo} type="video/mp4" />
-        </video> */}
-
-
-        <img src={LT_Dusk} alt="img" className="img-window" width="100%"/>
-        <img src={LT_Dusk2} alt="img" className="img-window" width="100%"/>
-        <img src={LT_Dusk3} alt="img" className="img-window" width="100%"/>
-
+        </video>
 
         {/* caption */}
         {/* <div className="caption">Light Temperature Spatial Experience</div> */}
