@@ -18,7 +18,7 @@ import DESTINATION_DASHBOARD from "../assets/thumb/dd.png";
 const ProjectsArray = [
   {
     id: 1,
-    name: "creative visual marketing",
+    name: "global rebranding",
     image: TIFFANY,
     location: "tiffany & co.",
     filterTag: "cc",
@@ -27,7 +27,7 @@ const ProjectsArray = [
   },
   {
     id: 2,
-    name: "Time Travel Exhibition",
+    name: "Time Exhibition",
     image: INTREPID,
     location: "Intrepid x shop",
     filterTag: "ux",
@@ -36,7 +36,7 @@ const ProjectsArray = [
   },
   {
     id: 3,
-    name: "Project Configurator",
+    name: " Configurator",
     image: CONFIGURATOR,
     location: "WeWork",
     filterTag: "ux",
@@ -54,7 +54,7 @@ const ProjectsArray = [
   },
   {
     id: 5,
-    name: "global design standards",
+    name: "design standards",
     image: STANDARDS,
     location: "WeWork",
     filterTag: "ux",
