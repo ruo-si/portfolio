@@ -50,7 +50,7 @@ const Home = () => {
 
                     <button className="filter" onClick={() => setItems(ProjectArray)}> All </button>
                     <button className="filter" onClick={() => filteredProjects("ux")}> UX </button>
-                    <button className="filter" onClick={() => filteredProjects("cc")}> CREATIVE CONTENT </button>
+                    <button className="filter" onClick={() => filteredProjects("cc")}> CREATIVE </button>
                     <button className="filter" onClick={() => filteredProjects("web")}> DEVELOPMENT </button>
 
                 </div>
