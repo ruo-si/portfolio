@@ -27,11 +27,11 @@ const ProjectsArray = [
   },
   {
     id: 2,
-    name: "caseta",
-    image: LUTRON,
-    location: "Lutron Electronics",
+    name: "Time Travel Exhibition",
+    image: INTREPID,
+    location: "Intrepid x shop",
     filterTag: "ux",
-    path: "/lt",
+    path: "/intrepid",
     className: "thumb-right"
   },
   {
@@ -63,11 +63,11 @@ const ProjectsArray = [
   },
   {
     id: 6,
-    name: "Time Travel Exhibition",
-    image: INTREPID,
-    location: "Intrepid x shop",
+    name: "caseta",
+    image: LUTRON,
+    location: "Lutron Electronics",
     filterTag: "cc",
-    path: "/intrepid",
+    path: "/lt",
     className: "thumb-right"
   },
   {
