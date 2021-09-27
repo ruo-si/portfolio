@@ -8,8 +8,6 @@ import LT_Dusk2 from "../assets/mockup2.png";
 import LT_Dusk3 from "../assets/mockup3.png";
 
 // project imagery
-import H1 from "../assets/LT_V_PLACEHOLDER.jpg";
-import H2 from "../assets/LT_V_PLACEHOLDER.jpg";
 
 // related projects
 import R1 from "../assets/thumb/placeholder.png";
