@@ -27,7 +27,7 @@ const ProjectsArray = [
   },
   {
     id: 2,
-    name: "History Exhibition",
+    name: "Historical Exhibition",
     image: INTREPID,
     location: "Intrepid x shop",
     filterTag: "ux",
