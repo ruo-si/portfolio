@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./pd.css";
 
 
@@ -18,9 +18,20 @@ import siteVideo from "../assets/ae/ketra.mp4"
 
 const Project_Ketra = () => {
 
+  // page scroll to top
+  const ScrollToTopOnMount = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
+
   return (
 
     <div className="pd-container">
+
+      <ScrollToTopOnMount/>
 
       <div className="project-detail-wrap">
 

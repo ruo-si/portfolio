@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./pd.css";
 import headerVideo from "../assets/wot_v3.mp4";
 import material from "../assets/wot_materials@2x.jpg";
@@ -6,8 +6,22 @@ import placeHolder from "../assets/wot_placeholder@2x.png";
 
 const ProjectWasteOfTime = () => {
 
+  // scroll to top
+  const ScrollToTopOnMount = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
+
+
   return (
+
     <div className="pd-container">
+
+      <ScrollToTopOnMount />
+
       <div className="project-detail-wrap">
 
         {/* title */}
@@ -33,7 +47,7 @@ const ProjectWasteOfTime = () => {
           </div>
         </div>
       </div>
-      
+
       {/* video */}
       <div className="head-wrap">
         <video autoPlay muted loop>

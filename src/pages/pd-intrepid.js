@@ -1,20 +1,30 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./pd.css";
 import headerVideo from "../assets/ae/intrepid.mp4";
 import processVideo from "../assets/ae/intrepid2.mp4";
 
 import placeHolder from "../assets/wot_placeholder@2x.png";
 
-import img2 from "../assets/intrepid-1.png"
-import img1 from "../assets/intrepid-3.png"
 import img4 from "../assets/intrepid-4.png"
 import img5 from "../assets/intrepid-5.png"
 
 
 const ProjectWasteOfTime = () => {
 
+  // page scroll to top
+  const ScrollToTopOnMount = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
+
   return (
     <div className="pd-container">
+
+      <ScrollToTopOnMount />
+
       <div className="project-detail-wrap">
 
         {/* title */}
@@ -46,7 +56,7 @@ const ProjectWasteOfTime = () => {
       {/* video */}
       <div className="head-wrap">
         <video autoPlay muted loop>
-          <source src={headerVideo} type="video/mp4" className="video-window"/>
+          <source src={headerVideo} type="video/mp4" className="video-window" />
         </video>
         {/* <img src={img1} alt="img" width="100%"></img> */}
       </div>
@@ -66,7 +76,7 @@ const ProjectWasteOfTime = () => {
             their daily routine and look forward to it being responsive to
             multiple countries and areas in the world. */}
 
-        <img src={img5} alt="img" width="100%"></img>
+            <img src={img5} alt="img" width="100%"></img>
 
 
           </div>
@@ -91,42 +101,42 @@ const ProjectWasteOfTime = () => {
 
       <div className="split-wrap">
 
-{/* title */}
-{/* <div className="cross-title">Process</div> */}
+        {/* title */}
+        {/* <div className="cross-title">Process</div> */}
 
-<div className="split-bg-left" >
-  <div className="split-text-left">
+        <div className="split-bg-left" >
+          <div className="split-text-left">
 
-    {/* title */}
-    {/* <div className="module-title">User Testing</div> */}
+            {/* title */}
+            {/* <div className="module-title">User Testing</div> */}
 
-    {/* All of the users found the product to have be a great addition to
+            {/* All of the users found the product to have be a great addition to
     their daily routine and look forward to it being responsive to
     multiple countries and areas in the world. */}
 
-<img src={img4} alt="img" width="100%"></img>
+            <img src={img4} alt="img" width="100%"></img>
 
 
-  </div>
-</div>
+          </div>
+        </div>
 
-<div className="split-bg-right">
-  <div className="split-text-right">
+        <div className="split-bg-right">
+          <div className="split-text-right">
 
-    {/* title */}
-    <div className="module-title">Scan</div>
+            {/* title */}
+            <div className="module-title">Scan</div>
 
-    <div>
-      users responded positivle to the clean, intuitive user flow and
-      quickly adapted to the game rules and excited to re-challenge
-      themselves to improve previous scores.
-    </div>
+            <div>
+              users responded positivle to the clean, intuitive user flow and
+              quickly adapted to the game rules and excited to re-challenge
+              themselves to improve previous scores.
+            </div>
 
-  </div>
-</div>
-</div>
+          </div>
+        </div>
+      </div>
 
-      
+
 
       {/* hero quote */}
       <div className="quote">
@@ -139,7 +149,7 @@ const ProjectWasteOfTime = () => {
         {/* <img src={img2} className="head-wrap" alt="imageRef" /> */}
 
         <video autoPlay muted loop>
-          <source src={processVideo} type="video/mp4"/>
+          <source src={processVideo} type="video/mp4" />
         </video>
       </div>
 

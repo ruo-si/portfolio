@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./pd.css";
 // import ReactCompareImage from "react-compare-image";
 
 // hero imagery
 import LT_Dusk from "../assets/mockup.png";
-import LT_Dusk2 from "../assets/mockup2.png";
-import LT_Dusk3 from "../assets/mockup3.png";
+// import LT_Dusk2 from "../assets/mockup2.png";
+// import LT_Dusk3 from "../assets/mockup3.png";
 
 
 import LT_Morning from "../assets/LT_Morning.jpg";
@@ -61,11 +61,23 @@ const Project_LT = () => {
     })
     setImage(updatedImage)
   }
-  console.log (image)
+  console.log(image)
+
+  // page scroll to top
+  const ScrollToTopOnMount = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
+
 
   return (
 
     <div className="pd-container">
+
+      <ScrollToTopOnMount />
 
       <div className="project-detail-wrap">
 
@@ -124,7 +136,7 @@ const Project_LT = () => {
 
       <div>
         <button>
-          <img alt="button" src={dusk_icon} onClick={() => filteredImage("dusk")}/>
+          <img alt="button" src={dusk_icon} onClick={() => filteredImage("dusk")} />
           button
         </button>
 
@@ -143,10 +155,10 @@ const Project_LT = () => {
           button
         </button>
       </div>
-      
+
       <div className="head-wrap">
 
-      
+
         <img alt="img" src={H3} className="img-wrap" />
         <div className="caption">Try out the colour temperature feature!</div>
 
