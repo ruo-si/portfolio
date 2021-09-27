@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./pd.css";
 import ReactCompareImage from "react-compare-image";
 
@@ -16,11 +16,22 @@ import R1 from "../assets/thumb/H_3.jpg";
 import R2 from "../assets/thumb/H_5.jpg";
 
 
-const Project_SHoP= () => {
+const Project_SHoP = () => {
+
+  // scroll to top
+  const ScrollToTopOnMount = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
 
   return (
 
     <div className="pd-container">
+
+      <ScrollToTopOnMount />
 
       <div className="project-detail-wrap">
 
@@ -33,7 +44,7 @@ const Project_SHoP= () => {
           <div>Visualization Director: Mengyi Fan</div>
           <div>Interactive Visualization Designer: Victoria Lee</div>
         </div>
-        
+
         {/* project description */}
         <div className="project-detail">
           <div>Contribution:</div>
@@ -74,7 +85,7 @@ const Project_SHoP= () => {
         <img alt="img" src={H1} className="image-wrap-left" />
 
         <div className="text-wrap-right">
-          A winning project bidding visualization for Fulbright University in Vietnam. 
+          A winning project bidding visualization for Fulbright University in Vietnam.
         </div>
       </div>
 
@@ -111,7 +122,7 @@ const Project_SHoP= () => {
           </div>
         </div>
       </div>
-      
+
     </div>
   );
 };

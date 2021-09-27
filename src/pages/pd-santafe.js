@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./pd.css";
 
 
@@ -20,9 +20,20 @@ import R2 from "../assets/thumb/placeholder.png";
 
 const Project_Ketra = () => {
 
+  // scroll to top
+  const ScrollToTopOnMount = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
+
   return (
 
     <div className="pd-container">
+
+      <ScrollToTopOnMount />
 
       <div className="project-detail-wrap">
 
@@ -57,9 +68,9 @@ const Project_Ketra = () => {
         </video> */}
 
 
-        <img src={LT_Dusk} alt="img" className="img-window" width="100%"/>
-        <img src={LT_Dusk2} alt="img" className="img-window" width="100%"/>
-        <img src={LT_Dusk3} alt="img" className="img-window" width="100%"/>
+        <img src={LT_Dusk} alt="img" className="img-window" width="100%" />
+        <img src={LT_Dusk2} alt="img" className="img-window" width="100%" />
+        <img src={LT_Dusk3} alt="img" className="img-window" width="100%" />
 
 
         {/* caption */}

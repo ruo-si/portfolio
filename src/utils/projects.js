@@ -18,7 +18,7 @@ import DESTINATION_DASHBOARD from "../assets/thumb/dd.png";
 const ProjectsArray = [
   {
     id: 1,
-    name: "global rebranding",
+    name: "global rebrand",
     image: TIFFANY,
     location: "tiffany & co.",
     filterTag: "cc",

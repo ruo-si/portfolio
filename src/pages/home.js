@@ -15,6 +15,7 @@ const Home = () => {
         })
 
         setItems(updatedItems);
+
     }
 
     return (
@@ -51,41 +52,41 @@ const Home = () => {
                     <button className="filter" onClick={() => setItems(ProjectArray)}> All </button>
                     <button className="filter" onClick={() => filteredProjects("ux")}> UX </button>
                     <button className="filter" onClick={() => filteredProjects("cc")}> CREATIVE </button>
-                    <button className="filter" onClick={() => filteredProjects("web")}> DEVELOPMENT </button>
+                    <button className="filter" onClick={() => filteredProjects("web")}> DEV </button>
 
                 </div>
 
                 {/* map function and render filtered results */}
-                { items.map((elements) => {
+                {items.map((elements) => {
 
-                        // passed in from projectArray
-                        const { name, image, location, path, className } = elements;
+                    // passed in from projectArray
+                    const { name, image, location, path, className } = elements;
 
-                        return (
-                            <div>
+                    return (
+                        <div>
 
-                                <div className="container">
+                            <div className="container">
 
-                                    {/* project module/card */}
-                                    <div className={className}>
+                                {/* project module/card */}
+                                <div className={className}>
 
-                                        <Link to={path}>
-                                            <img alt="img" src={image} className="thumb" />
-                                        </Link>
+                                    <Link to={path}>
+                                        <img alt="img" src={image} className="thumb" />
+                                    </Link>
 
-                                        <div className="project-title">
-                                            {name}
-                                            <br />
-                                            {location}
-                                            </div>
-
+                                    <div className="project-title">
+                                        {name}
+                                        <br />
+                                        {location}
                                     </div>
 
                                 </div>
 
                             </div>
-                        )
-                    })
+
+                        </div>
+                    )
+                })
                 }
 
             </div>

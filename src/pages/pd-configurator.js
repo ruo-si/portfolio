@@ -1,7 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./pd.css";
-// import headerVideo from "../assets/wot_v3.mp4";
-// import headerVideo from "../assets/mian.mp4";
 import material from "../assets/wot_materials@2x.jpg";
 import placeHolder from "../assets/wot_placeholder@2x.png";
 
@@ -10,10 +8,26 @@ import compare from "../assets/compare.jpg"
 
 
 const configurator = () => {
+
+  // scroll to top
+  const ScrollToTopOnMount = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
+
   return (
+
     <div className="pd-container">
+
+      <ScrollToTopOnMount />
+
       <div className="project-detail-wrap">
+
         <div className="project-name">WeWork <br />Configurator</div>
+
         <div className="project-credit">
           <div>Role: Product Designer & UX Designer</div>
           <div>Methodologies: </div>
@@ -23,6 +37,8 @@ const configurator = () => {
           </div>
           <div>Timeframe: 3 weeks</div>
         </div>
+
+        {/* project description */}
         <div className="project-detail">
           <div>
             Waste of Time is a product where one can learn about the waste
@@ -39,7 +55,7 @@ const configurator = () => {
 
         <img src={mv} alt="mockup" class="web-img" />
         <img src={compare} alt="mockup" class="web-img" />
-        
+
       </div>
       <div className="split-wrap">
         <div className="split-bg-left" style={{ backgroundColor: "#1D4144", color: "#ffffff" }}>
@@ -65,11 +81,11 @@ const configurator = () => {
               </div>
             </div>
             <div className="icon-set">
-              <img src={placeHolder} className="icon" alt="icon"/>
+              <img src={placeHolder} className="icon" alt="icon" />
               <div>The lack of knowledge of properly recycling</div>
             </div>
             <div className="icon-set">
-              <img src={placeHolder} className="icon" alt="icon"/>
+              <img src={placeHolder} className="icon" alt="icon" />
               <div>localized differences in recycling categories</div>
             </div>
           </div>
@@ -109,7 +125,7 @@ const configurator = () => {
 
       <div>
         <div className="cross-title">The Brand</div>
-        <img src={material} className="head-wrap" alt="mtl"/>
+        <img src={material} className="head-wrap" alt="mtl" />
       </div>
 
       <div className="split-wrap">
@@ -126,11 +142,11 @@ const configurator = () => {
           <div className="split-text-right">
 
             <div className="module-title">User Journey</div>
-            <img src={placeHolder} className="icon" alt="icon"/>
-            <img src={placeHolder} className="icon" alt="icon"/>
-            <img src={placeHolder} className="icon" alt="icon"/>
-            <img src={placeHolder} className="icon" alt="icon"/>
-            <img src={placeHolder} className="icon" alt="icon"/>
+            <img src={placeHolder} className="icon" alt="icon" />
+            <img src={placeHolder} className="icon" alt="icon" />
+            <img src={placeHolder} className="icon" alt="icon" />
+            <img src={placeHolder} className="icon" alt="icon" />
+            <img src={placeHolder} className="icon" alt="icon" />
           </div>
         </div>
       </div>
@@ -151,18 +167,18 @@ const configurator = () => {
         <div className="split-bg-right">
           <div className="split-text-right">
             <div className="icon-set">
-              <img src={placeHolder} className="icon" alt="icon"/>
+              <img src={placeHolder} className="icon" alt="icon" />
               <div className="icon-text">
                 The waste system is an often overlooked aspect when we think
                 about the environment
               </div>
             </div>
             <div className="icon-set">
-              <img src={placeHolder} className="icon" alt="icon"/>
+              <img src={placeHolder} className="icon" alt="icon" />
               <div>The lack of knowledge of properly recycling</div>
             </div>
             <div className="icon-set">
-              <img src={placeHolder} className="icon" alt="icon"/>
+              <img src={placeHolder} className="icon" alt="icon" />
               <div>localized differences in recycling categories</div>
             </div>
           </div>

@@ -43,9 +43,25 @@ const About = () => {
             and design in a collaborative multicultural work environment.
           </div>
 
-          <button className="linkout-button" > Linkedin </button>
-          <button className="linkout-button" > github </button>
-          <button className="linkout-button" > instagram </button>
+          {/* social media links */}
+          <button className="linkout-button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://www.linkedin.com/in/victoria-chieh-mei-lee/"
+            }}> Linkedin </button>
+
+          <button className="linkout-button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://github.com/ruo-si"
+            }}>
+            github </button>
+
+          <button className="linkout-button"
+            onClick={(e) => {
+              e.preventDefault();
+              window.location.href = "https://www.instagram.com/hello_ruosi/"
+            }}> instagram </button>
         </div>
 
         {/* contact form */}
@@ -57,7 +73,8 @@ const About = () => {
 
           <textarea name="message" placeholder="Your Message" />
 
-          <button type="submit" value="Send">Submit
+          <button type="submit" value="Send">
+            Submit
             <img alt="linkout" src={arrow} class="linkout" />
           </button>
 

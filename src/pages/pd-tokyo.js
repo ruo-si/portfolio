@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./pd.css";
 import ReactCompareImage from "react-compare-image";
 
@@ -18,9 +18,20 @@ import R2 from "../assets/thumb/placeholder.png";
 
 const Project_Tokyo = () => {
 
+  // scroll to top
+  const ScrollToTopOnMount = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
+
+    return null;
+  }
+
   return (
 
     <div className="pd-container">
+
+      <ScrollToTopOnMount />
 
       <div className="project-detail-wrap">
 
@@ -35,6 +46,7 @@ const Project_Tokyo = () => {
           <div>Visualization Lead: Victoria Lee, & Sheena Garcia</div>
         </div>
         {/* project description */}
+        
         <div className="project-detail">
           <div>Contribution:</div>
           <div>Art Direction, Visual Experience</div>

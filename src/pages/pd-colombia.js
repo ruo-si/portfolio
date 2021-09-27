@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./pd.css";
 import ReactCompareImage from "react-compare-image"
 
@@ -18,9 +18,21 @@ import R2 from "../assets/thumb/placeholder.png";
 
 const Project_Colombia = () => {
 
+    // scroll to top
+    const ScrollToTopOnMount = () => {
+        useEffect(() => {
+            window.scrollTo(0, 0);
+        }, []);
+
+        return null;
+    }
+
+
     return (
 
         <div className="pd-container">
+            
+            <ScrollToTopOnMount />
 
             <div className="project-detail-wrap">
 
