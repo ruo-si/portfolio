@@ -57,10 +57,10 @@ const Project_Ketra = () => {
         </video>
 
 
-        {/* <img src={LT_Dusk} alt="img" className="img-window" width="100%"/>
+        <img src={LT_Dusk} alt="img" className="img-window" width="100%"/>
         <img src={LT_Dusk2} alt="img" className="img-window" width="100%"/>
         <img src={LT_Dusk3} alt="img" className="img-window" width="100%"/>
- */}
+
 
         {/* caption */}
         {/* <div className="caption">Light Temperature Spatial Experience</div> */}
